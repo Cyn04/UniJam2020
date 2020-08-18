@@ -52,9 +52,9 @@ public class GameManager : MonoBehaviour
         }
 
         // get child text object of the wrapper and set text
-        newMsg.transform.GetChild(0).gameObject.GetComponent<Text>().text = text;
+        newMsg.transform.GetChild(0).gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = text;
 
-        float textHeight = newMsg.transform.GetChild(0).gameObject.GetComponent<Text>().preferredHeight;
+        float textHeight = newMsg.transform.GetChild(0).gameObject.GetComponent<TMPro.TextMeshProUGUI>().preferredHeight;
         float origWrapperWidth = newMsg.GetComponent<RectTransform>().sizeDelta.x;
 
         // set wrapper's dimensions to text size
