@@ -1,0 +1,158 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-katc1
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [2020817 16:7:49] Next license update check is after 2020-08-17T23:40:42
+
+
+LICENSE SYSTEM [2020817 16:7:49] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2019.4/staging' branch; Version is '2019.4.7f1 (e992b1a16e65) revision 15307441'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8139 MB
+[Licensing::Module] Serial number assigned to: "F4-R4YM-VZ5R-GU3Q-RZC9-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.4.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/katc1/OneDrive/Documents/Hackathons/Game Jam 2020/Typing tute
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+50790
+Successfully changed project path to: C:/Users/katc1/OneDrive/Documents/Hackathons/Game Jam 2020/Typing tute
+C:/Users/katc1/OneDrive/Documents/Hackathons/Game Jam 2020/Typing tute
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 47.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.7f1 (e992b1a16e65)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/katc1/OneDrive/Documents/Hackathons/Game Jam 2020/Typing tute/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1406)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   26.21.14.3200
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Registered in 0.005307 seconds.
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 43.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.701 seconds
+Registering precompiled user dll's ...
+Registered in 0.152219 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\Game Jam 2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.986 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1749 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.4 MB.
+System memory in use after: 82.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 2.841300 ms (FindLiveObjects: 0.487800 ms CreateObjectMapping: 0.144500 ms MarkObjects: 2.069500 ms  DeleteObjects: 0.139000 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 17.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.0 MB.
+System memory in use after: 48.0 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 2136.
+Total: 2.111000 ms (FindLiveObjects: 0.405100 ms CreateObjectMapping: 0.060900 ms MarkObjects: 1.554600 ms  DeleteObjects: 0.089800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/P2.prefab
+  artifactKey: Guid(411d299e6c618fb429c2efa31935c769) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/P2.prefab using Guid(411d299e6c618fb429c2efa31935c769) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/c3c11c93483ff9b4f80c541720ce60ef.asset.1.index for Assets/P2.prefab with Types
+Done importing asset: 'Assets/P2.prefab' (target hash: '510078144d78afd342e2ed4333d65373') in 0.172086 seconds
+  Import took 0.180541 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.815988 seconds.
+  path: Assets/Scenes/ChatUI.unity
+  artifactKey: Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/ChatUI.unity using Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/eccf6c14ed29f12449a5a2bda4c535b2.asset.1.index for Assets/Scenes/ChatUI.unity with Types
+Done importing asset: 'Assets/Scenes/ChatUI.unity' (target hash: '5a195d807ee542ede5bbc1603d130770') in 0.021356 seconds
+  Import took 0.028085 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Registered in 0.002561 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\Game Jam 2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Registering precompiled user dll's ...
+Registered in 0.087181 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\Game Jam 2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 48.5 MB.
+System memory in use after: 48.5 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2142.
+Total: 2.095800 ms (FindLiveObjects: 0.407000 ms CreateObjectMapping: 0.073400 ms MarkObjects: 1.509400 ms  DeleteObjects: 0.105300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 398.475689 seconds.
+  path: Assets/Square.png
+  artifactKey: Guid(8c6ddf0bcf52fcc4987dc99f305e3229) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Square.png using Guid(8c6ddf0bcf52fcc4987dc99f305e3229) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/17cdaf9f5c0e51a4c975d4c6b0e31d7a.asset.1.index for Assets/Square.png with Types
+Done importing asset: 'Assets/Square.png' (target hash: '7fd04810a14fb425cd1221472d851d75') in 0.098634 seconds
+  Import took 0.106609 seconds.
+
