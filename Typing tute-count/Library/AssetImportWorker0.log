@@ -1,0 +1,828 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-katc1
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [2020819 15:16:24] Next license update check is after 2020-08-19T03:40:20
+
+
+LICENSE SYSTEM [2020819 15:16:24] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2019.4/staging' branch; Version is '2019.4.7f1 (e992b1a16e65) revision 15307441'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8139 MB
+[Licensing::Module] Serial number assigned to: "F4-R4YM-VZ5R-GU3Q-RZC9-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.4.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/katc1/OneDrive/Documents/Hackathons/UniJam2020/Typing tute
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+52458
+Successfully changed project path to: C:/Users/katc1/OneDrive/Documents/Hackathons/UniJam2020/Typing tute
+C:/Users/katc1/OneDrive/Documents/Hackathons/UniJam2020/Typing tute
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 66.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.7f1 (e992b1a16e65)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/katc1/OneDrive/Documents/Hackathons/UniJam2020/Typing tute/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1406)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   26.21.14.3200
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56984
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Registered in 0.286810 seconds.
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.281 seconds
+Registering precompiled user dll's ...
+Registered in 0.249750 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 54.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.450 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.0 MB.
+System memory in use after: 83.4 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2141.
+Total: 3.722700 ms (FindLiveObjects: 0.474500 ms CreateObjectMapping: 0.082000 ms MarkObjects: 2.406100 ms  DeleteObjects: 0.758100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4a5e8026391522c4cad1086653758354.asset.1.index for Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt with Types
+Done importing asset: 'Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt' (target hash: '080ba90930abfc971caecb762cc7c864') in 0.217328 seconds
+  Import took 0.227204 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000545 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/f1d3130dc415afe49bc046805e370a05.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_Sprite.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_Sprite.shader' (target hash: '38379b103281e8f09897746219458267') in 0.079005 seconds
+  Import took 0.094771 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000405 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/94bb384728026c14f8d0bd2acf0e522e.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader' (target hash: '16fa9b2674a911c680dedf3f24613bf9') in 0.073102 seconds
+  Import took 0.083301 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/4e079b687d217034dbb26c1fd6bbc3ac.asset.1.index for Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset' (target hash: '781fe1b30c0d8d09b32867ed4faa7381') in 0.054820 seconds
+  Import took 0.064539 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/117699507_1006596663107669_1039268718126320844_n.png
+  artifactKey: Guid(0ba99507d66a67b47a8b9ec5d4a29e30) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/117699507_1006596663107669_1039268718126320844_n.png using Guid(0ba99507d66a67b47a8b9ec5d4a29e30) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3ff6eda22bec8174c862280023ac7230.asset.1.index for Assets/117699507_1006596663107669_1039268718126320844_n.png with Types
+Done importing asset: 'Assets/117699507_1006596663107669_1039268718126320844_n.png' (target hash: '22ab4f98aebe85fc6c305327f0b6fdd0') in 0.067724 seconds
+  Import took 0.083111 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000744 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/69fd30b6840d89743baf55af22aed0e2.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader' (target hash: '2552f5cdb020a6ad1d16dc97d47ea663') in 0.035408 seconds
+  Import took 0.049893 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ecfe61058f6d32b43ae7b31769a78a64.asset.1.index for Assets/TextMesh Pro/Fonts/LiberationSans.ttf with Types
+Done importing asset: 'Assets/TextMesh Pro/Fonts/LiberationSans.ttf' (target hash: 'fa2d3e69b4dde33a88cd66e5fb328209') in 0.065648 seconds
+  Import took 0.076168 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7bfc1f14198842a488494d858c1c5906.asset.1.index for Assets/TextMesh Pro with Types
+Done importing asset: 'Assets/TextMesh Pro' (target hash: 'f85b3752c91f7298e527de6864350549') in 0.051893 seconds
+  Import took 0.059196 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/82372508c1ff87940a7e0b2bf84f4475.asset.1.index for Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat' (target hash: '8561b2daa3b2ce021be4f1b991b171ff') in 0.074392 seconds
+  Import took 0.085151 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3e94c7e49611cc244b8d21ee552d27c6.asset.1.index for Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt' (target hash: 'e8cfefcccff591b06d864e921fa44712') in 0.043460 seconds
+  Import took 0.053899 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000524 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/61bfd1fa7f862ce4c9ef4e02f81bf9f4.asset.1.index for Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc' (target hash: 'd9480c21d90f99b1d7a56dce935720bd') in 0.034273 seconds
+  Import took 0.053828 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ad3c17a07f2ff2b469d1a709eed27ac1.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader' (target hash: '6644bc8d5316200c14e6b64f66b00a00') in 0.029156 seconds
+  Import took 0.044273 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/c3e2b4fc3be5ccc44a160a4b8c32143d.asset.1.index for Assets/TextMesh Pro/Shaders/TMPro.cginc with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMPro.cginc' (target hash: 'f0629a8d1ae4dfadb89f64f67666197b') in 0.127053 seconds
+  Import took 0.139428 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000514 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/67d9cc0a101e1124684ad90d19503c8a.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader' (target hash: 'fd2b33a7c1adb8bdd8006c4cde3c451d') in 0.046571 seconds
+  Import took 0.064953 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/90417871aa78a064f8cd2dfaba21c760.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader' (target hash: 'ccf5250d618b68d536b6b97a42eebdf2') in 0.025767 seconds
+  Import took 0.039588 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/5aa0341ed926e114e86ff272f5ccebce.asset.1.index for Assets/TextMesh Pro/Sprites with Types
+Done importing asset: 'Assets/TextMesh Pro/Sprites' (target hash: '89d8a591d93b8b4ba0742f832966a1c2') in 0.038263 seconds
+  Import took 0.057683 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000350 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/500cba51aa5e2684d91cdd979c389d97.asset.1.index for Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset' (target hash: '9ce70b557e11cba74c5e3eff7e06556f') in 0.223476 seconds
+  Import took 0.232096 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/928372ee110639a4da5171a1b9ecee0d.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader' (target hash: 'b5af0497065f75e4bdff675fbe00e80f') in 0.046564 seconds
+  Import took 0.055401 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2497f0d740b5d9f4fa3f0f97f0c632e6.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader' (target hash: 'b5bf80f9bac4b84e3e5a3a418538082e') in 0.038296 seconds
+  Import took 0.050381 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000754 seconds.
+  path: Assets/117769936_365355757789455_2469167304701329527_n.png
+  artifactKey: Guid(d5cc724c5587b484499de7933c2405ac) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/117769936_365355757789455_2469167304701329527_n.png using Guid(d5cc724c5587b484499de7933c2405ac) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e2c2b348a7dae7147b1efdc9608220aa.asset.1.index for Assets/117769936_365355757789455_2469167304701329527_n.png with Types
+Done importing asset: 'Assets/117769936_365355757789455_2469167304701329527_n.png' (target hash: '67f8e649e87e847728b9608929586c90') in 0.052559 seconds
+  Import took 0.062701 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/56fdfc70d1b40344e9139b183bd61c95.asset.1.index for Assets/TextMesh Pro/Resources/Style Sheets with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/Style Sheets' (target hash: 'e698b303eb163aa2849d1e87f66a8a65') in 0.026142 seconds
+  Import took 0.036642 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/RightJustifiedResizer.cs
+  artifactKey: Guid(058d2e61b81aa104dbffe8848b06fde8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/RightJustifiedResizer.cs using Guid(058d2e61b81aa104dbffe8848b06fde8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ec0fc8fce90353044aa2fef46b3b9792.asset.1.index for Assets/RightJustifiedResizer.cs with Types
+Done importing asset: 'Assets/RightJustifiedResizer.cs' (target hash: 'db086f702f4b83efe96204333cd342c3') in 0.055076 seconds
+  Import took 0.071665 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000536 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d28cf45a8be962a458772012319c4edf.asset.1.index for Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc' (target hash: 'd8edd37b52531d503e745d6124c1c307') in 0.047451 seconds
+  Import took 0.055167 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Scenes/ChatUI.unity
+  artifactKey: Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/ChatUI.unity using Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/634096e41ca6a3848930a82dd0a7c208.asset.1.index for Assets/Scenes/ChatUI.unity with Types
+Done importing asset: 'Assets/Scenes/ChatUI.unity' (target hash: 'a0b24296d01c3e9f2777ae2c39512ccf') in 0.028710 seconds
+  Import took 0.051090 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/6cec2940f12556b42a6e92167c6152cf.asset.1.index for Assets/TextMesh Pro/Resources/Sprite Assets with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/Sprite Assets' (target hash: '97672a09576f20f63c78a23fc780500f') in 0.030677 seconds
+  Import took 0.039569 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/bbef21be54a132141b9ec85e2e2ebd20.asset.1.index for Assets/TextMesh Pro/Fonts with Types
+Done importing asset: 'Assets/TextMesh Pro/Fonts' (target hash: '34fff1da403d667d70e28e65fff037b0') in 0.038285 seconds
+  Import took 0.045110 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000455 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/16f4d84425b5a484e8b3852964bde110.asset.1.index for Assets/TextMesh Pro/Sprites/EmojiOne.png with Types
+Done importing asset: 'Assets/TextMesh Pro/Sprites/EmojiOne.png' (target hash: '7891014d6e1dc9a2e626febf7fee4934') in 0.147418 seconds
+  Import took 0.159969 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a3e33c9512bf1164e81cd4d63f1d6977.asset.1.index for Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset' (target hash: '2efdcb248d6092855f8ef01574996e02') in 0.064894 seconds
+  Import took 0.075065 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3293f11cf1716504ea88bd68f3cbdb0e.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader' (target hash: 'd193c3ecedcfd16cb16c4f672171cd8c') in 0.051688 seconds
+  Import took 0.072209 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000490 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/cc719a13df16cfa44914cb9686aa4c18.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader' (target hash: 'efcf48552c88067a2ee1875d03ba2ad0') in 0.057867 seconds
+  Import took 0.067570 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000862 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e16412e988787f84a85e788a5edc6fd1.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader' (target hash: 'ecc23c4dc96c8c00e721879b50b2edb5') in 0.037677 seconds
+  Import took 0.050712 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/GameManager.cs
+  artifactKey: Guid(7d2c9adc5e9afa549b62eea82f5c080a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/GameManager.cs using Guid(7d2c9adc5e9afa549b62eea82f5c080a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1640402a9a8d9b048a2a147fffda4918.asset.1.index for Assets/GameManager.cs with Types
+Done importing asset: 'Assets/GameManager.cs' (target hash: 'c597993c50e03ffe1465f25df54b76a3') in 0.029219 seconds
+  Import took 0.044263 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000588 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/48f9aac825290564db1ee0564c765530.asset.1.index for Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc' (target hash: '27076ee002f0c3c80bf5dad303c44ed6') in 0.047398 seconds
+  Import took 0.057705 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/ResizeToText.cs
+  artifactKey: Guid(3549d3eb6da9b994cbfc14aef63aff90) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/ResizeToText.cs using Guid(3549d3eb6da9b994cbfc14aef63aff90) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/753452026b4d58244b72a7932500c84c.asset.1.index for Assets/ResizeToText.cs with Types
+Done importing asset: 'Assets/ResizeToText.cs' (target hash: '45589f9416a9eb7a7aaa8d286cffa14f') in 0.051524 seconds
+  Import took 0.062874 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/91d3dc087fafd6f4cbeb9d1dfed9b535.asset.1.index for Assets/TextMesh Pro/Documentation with Types
+Done importing asset: 'Assets/TextMesh Pro/Documentation' (target hash: '6f334d6f51e5e146afca1ec3891871a8') in 0.040960 seconds
+  Import took 0.053835 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001252 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/397e850709babcd41bab5b0f4d255042.asset.1.index for Assets/TextMesh Pro/Shaders with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders' (target hash: '43103b66de094fb2093313c68143f075') in 0.032087 seconds
+  Import took 0.040168 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/ac873b0590ecd12489ff2e36f3344407.asset.1.index for Assets/TextMesh Pro/Resources with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources' (target hash: '23b3ac1bd3ce54c0bfa1fabf8fa957d0') in 0.036209 seconds
+  Import took 0.043795 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/e4e4312a3e9bbf846993526da768c6d0.asset.1.index for Assets/TextMesh Pro/Resources/Fonts & Materials with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/Fonts & Materials' (target hash: 'efe200bc66fb3c4a6f8c06ee6146ecdd') in 0.025485 seconds
+  Import took 0.032467 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/38d5b291f97e1f64ea0c5aab54a22459.asset.1.index for Assets/TextMesh Pro/Sprites/EmojiOne.json with Types
+Done importing asset: 'Assets/TextMesh Pro/Sprites/EmojiOne.json' (target hash: '3117f1e6f235cc0a615234867270ef1d') in 0.050819 seconds
+  Import took 0.062390 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/SEGOEUI.TTF
+  artifactKey: Guid(69e457b8d80d2d8478ae1f38c658a7c2) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/SEGOEUI.TTF using Guid(69e457b8d80d2d8478ae1f38c658a7c2) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/496fb2aa82067ea4d8a7a23d8fc91033.asset.1.index for Assets/SEGOEUI.TTF with Types
+Done importing asset: 'Assets/SEGOEUI.TTF' (target hash: 'faff395b61a0627953129b98108a3328') in 0.046830 seconds
+  Import took 0.054975 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/81170cd8b97c0674f8a9c54eee692cbe.asset.1.index for Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt with Types
+Done importing asset: 'Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt' (target hash: 'bd51ae74c15749b361962c7115fe9ab5') in 0.037349 seconds
+  Import took 0.045033 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/0b8248b4258b8ae48b2a5c098d91f589.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_SDF.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_SDF.shader' (target hash: 'f97fbdac4fe676ee8cff9e5d61e403a9') in 0.028104 seconds
+  Import took 0.045310 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/2d3f302a15c2389478291cdee5158b94.asset.1.index for Assets/TextMesh Pro/Resources/TMP Settings.asset with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/TMP Settings.asset' (target hash: 'a1064e84181a68e77eb3e8b7644a5a03') in 0.108819 seconds
+  Import took 0.116135 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/TextMesh Pro/Fonts/SEGOEUI SDF.asset
+  artifactKey: Guid(df49419746208674890de52f862b1e69) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Fonts/SEGOEUI SDF.asset using Guid(df49419746208674890de52f862b1e69) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/11f201d225f5c394cb7eec0bbaa82a08.asset.1.index for Assets/TextMesh Pro/Fonts/SEGOEUI SDF.asset with Types
+Done importing asset: 'Assets/TextMesh Pro/Fonts/SEGOEUI SDF.asset' (target hash: '35118a84d6b0a60e1db92f89003528b6') in 0.056551 seconds
+  Import took 0.065332 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/fed40ff3dc0440349a74ce2c4bdf5fe2.asset.1.index for Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf with Types
+Done importing asset: 'Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf' (target hash: '8dda5fd666768eb6c0cfa5d50ec7d60c') in 0.092862 seconds
+  Import took 0.099661 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d36ecb79529e8544a95dc76cb75b7c15.asset.1.index for Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset' (target hash: 'ecc98be8938b6ea690feccbe5d25e771') in 0.040711 seconds
+  Import took 0.048919 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000644 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9197663fffc51ad4f9e1c51ae8032375.asset.1.index for Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader with Types
+Done importing asset: 'Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader' (target hash: '02442121dd2be64ae50e95c54c06e495') in 0.051155 seconds
+  Import took 0.064024 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001333 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/03cb176093f36ae4280a98514913abae.asset.1.index for Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt' (target hash: 'b7b0c642d4bde2e314c3a7fccbd0220b') in 0.027249 seconds
+  Import took 0.033134 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/cf9d2937e74934b409a7e676902a4235.asset.1.index for Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat with Types
+Done importing asset: 'Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat' (target hash: 'a3bafcd33098e83f1d177cf6ca2f4fb5') in 0.044167 seconds
+  Import took 0.053006 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/image.cs
+  artifactKey: Guid(a4c07043662b7f743afd8a765a77f6a8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/image.cs using Guid(a4c07043662b7f743afd8a765a77f6a8) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/bdb068bf6dc88ef40b3080384f45bbef.asset.1.index for Assets/image.cs with Types
+Done importing asset: 'Assets/image.cs' (target hash: 'ad788e44ef62398f43a5bf5327c1dac9') in 0.038844 seconds
+  Import took 0.049151 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 557.062660 seconds.
+  path: Assets/Backgrounds
+  artifactKey: Guid(1aaaa331e8f71204e809423056fcbfdf) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Backgrounds using Guid(1aaaa331e8f71204e809423056fcbfdf) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/151c15b57cd071d478c287f62893751a.asset.1.index for Assets/Backgrounds with Types
+Done importing asset: 'Assets/Backgrounds' (target hash: '36c4015d9adc61e1ee7104f004d604a4') in 0.024222 seconds
+  Import took 0.037136 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.966645 seconds.
+  path: Assets/Backgrounds/117773416_336222440746904_8235512705970717593_n.png
+  artifactKey: Guid(325970eab97a6e341930e2aae6f45cbe) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Backgrounds/117773416_336222440746904_8235512705970717593_n.png using Guid(325970eab97a6e341930e2aae6f45cbe) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b2330a40b94b60d46b5bf20bb5d1d29b.asset.1.index for Assets/Backgrounds/117773416_336222440746904_8235512705970717593_n.png with Types
+Done importing asset: 'Assets/Backgrounds/117773416_336222440746904_8235512705970717593_n.png' (target hash: '781d5c0710030de5ec330ba6c9bc9650') in 0.064453 seconds
+  Import took 0.075972 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 409.970826 seconds.
+  path: Assets/Scenes/ChatUI.unity
+  artifactKey: Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/ChatUI.unity using Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/1b1538dd8ef8ce646bbbdafb78b199ce.asset.1.index for Assets/Scenes/ChatUI.unity with Types
+Done importing asset: 'Assets/Scenes/ChatUI.unity' (target hash: '3cae60b7c42065a0aa0c544f650eb176') in 0.012495 seconds
+  Import took 0.021813 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.439312 seconds.
+  path: Assets/Scenes/ChatUI.unity
+  artifactKey: Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/ChatUI.unity using Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/f460525a4928f204096df0df905c2af9.asset.1.index for Assets/Scenes/ChatUI.unity with Types
+Done importing asset: 'Assets/Scenes/ChatUI.unity' (target hash: '5ff494b5c2c55370fd5f8e4d6e414e25') in 0.023604 seconds
+  Import took 0.032744 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Registered in 0.002497 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 91.20 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.524 seconds
+Registering precompiled user dll's ...
+Registered in 0.150203 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.139 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.4 MB.
+System memory in use after: 49.9 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2147.
+Total: 2.287500 ms (FindLiveObjects: 0.513200 ms CreateObjectMapping: 0.104200 ms MarkObjects: 1.391800 ms  DeleteObjects: 0.277700 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Registered in 0.002687 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.296 seconds
+Registering precompiled user dll's ...
+Registered in 0.115900 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.401 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.4 MB.
+System memory in use after: 50.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2153.
+Total: 2.600100 ms (FindLiveObjects: 0.734300 ms CreateObjectMapping: 0.089100 ms MarkObjects: 1.487900 ms  DeleteObjects: 0.287800 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Registered in 0.002683 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Registering precompiled user dll's ...
+Registered in 0.117831 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.445 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.4 MB.
+System memory in use after: 50.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2159.
+Total: 2.389200 ms (FindLiveObjects: 0.443700 ms CreateObjectMapping: 0.078200 ms MarkObjects: 1.305500 ms  DeleteObjects: 0.560600 ms)
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Registered in 0.002646 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.19 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.512 seconds
+Registering precompiled user dll's ...
+Registered in 0.113361 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WebGL target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.537 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 50.4 MB.
+System memory in use after: 50.0 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2165.
+Total: 2.272300 ms (FindLiveObjects: 0.394200 ms CreateObjectMapping: 0.090800 ms MarkObjects: 1.391700 ms  DeleteObjects: 0.395000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 885.477664 seconds.
+  path: Assets/Scenes/ChatUI.unity
+  artifactKey: Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/ChatUI.unity using Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d956cbdb65c75f9458f9f9ed02eda205.asset.1.index for Assets/Scenes/ChatUI.unity with Types
+Done importing asset: 'Assets/Scenes/ChatUI.unity' (target hash: 'ba6698b257557d9c5db08ceb922ccf4e') in 0.092441 seconds
+  Import took 0.099513 seconds.
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
