@@ -1,4 +1,4 @@
-﻿ReceivedMessage,ToSend,swapLetter,swapFrom,swapTo,skipLetter,charToSkip,dupLetter,charToDupe,capitaliseLetter,charToCapitalise
-Hello| Hi.,hewwo,TRUE,e,o,FALSE,,TRUE,w,FALSE,
-My name is uwu,Nice to meet you| uwu.,FALSE,,,TRUE,u,TRUE,e,FALSE,
-how are you,eh| I'm ok...,FALSE,,,FALSE,,FALSE,,TRUE,h
+﻿ReceivedMessage,ToSend,swapLetter,swapFrom,swapTo,skipLetter,charToSkip,dupLetter,charToDupe,capitaliseLetter,charToCapitalise,time(seconds)
+Hello| Hi.,hewwo,TRUE,e,o,FALSE,,TRUE,w,FALSE,,5
+My name is uwu,Nice to meet you| uwu.,FALSE,,,TRUE,u,TRUE,e,FALSE,,7
+how are you,eh| I'm ok...,FALSE,,,FALSE,,FALSE,,TRUE,h,7

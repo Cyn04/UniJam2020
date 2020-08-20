@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 public class TypingManagerScript : MonoBehaviour
 {
-    public static string isLevelFinished;  // can be: "In Progress", "Fail", "Pass"
+    public static string stageStatus;  // can be: "In Progress", "Fail", "Pass"
     public GameObject timer;
 
     private List<TextMessage> toType = new List<TextMessage>(); 
@@ -30,14 +30,14 @@ public class TypingManagerScript : MonoBehaviour
     void Start()
     {
         ReadCsvFile(stageNumber);
-        GetText();
-        isLevelFinished = "In Progress";
+        stageStatus = "In Progress";
 
         // Find messsagefactory object and get its script
         LinkToScript = GameObject.Find("MessageFactory");
         MessageFactory messageFactoryStart = LinkToScript.GetComponent<MessageFactory>();
-        messageFactoryStart.SendMessageToChat(toType[textArrayPos].receivedText, "NPC"); 
+        messageFactoryStart.SendMessageToChat(toType[textArrayPos].receivedText, "NPC");
 
+        GetText();
     }
 
     private void GetText()
@@ -70,10 +70,9 @@ public class TypingManagerScript : MonoBehaviour
 
     private void Update()
     {
-        DisplayRule();
-
-        if (isLevelFinished == "In Progress")
+        if (stageStatus == "In Progress")
         {
+            DisplayRule();
             CheckInput();
         }
     }
@@ -96,7 +95,7 @@ public class TypingManagerScript : MonoBehaviour
             if (textArrayPos == toType.Count)
             {
                 UnityEngine.Debug.Log("stage comp");
-                StageComplete();
+                stageStatus = "Pass";
             } 
             else
             {
@@ -244,23 +243,5 @@ public class TypingManagerScript : MonoBehaviour
         ruleMessage.text = rule;
     }
 
-    void StageComplete()
-    {
-        // stage complete interface, sounds
-
-        toType = new List<TextMessage>();
-        textArrayPos = 0;
-
-        stageNumber++;
-
-        if (stageNumber > 5) // end of stage 5 - last stage
-        {
-            // game end interface cool effects
-            return;
-        }
-
-        ReadCsvFile(stageNumber);
-        GetText();
-
-    }
+    
 }
