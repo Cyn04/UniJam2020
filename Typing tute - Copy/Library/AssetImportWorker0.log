@@ -1,0 +1,230 @@
+[Licensing::Module] Successfully connected to LicensingClient on channel: LicenseClient-katc1
+Entitlement-based licensing initiated
+[LicensingClient] Licenses Updated successfully in LicensingClient
+
+LICENSE SYSTEM [2020821 2:0:16] Next license update check is after 2020-08-20T09:24:15
+
+
+LICENSE SYSTEM [2020821 2:0:16] Current license is already valid and activated. Skipping license activation process (Provided username/password will be ignored).
+Built from '2019.4/staging' branch; Version is '2019.4.8f1 (60781d942082) revision 6322205'; Using compiler version '191627012'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 8139 MB
+[Licensing::Module] Serial number assigned to: "F4-R4YM-VZ5R-GU3Q-RZC9-XXXX"\nBatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2019.4.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/katc1/OneDrive/Documents/Hackathons/UniJam2020/Typing tute - Copy
+-logFile
+Library/AssetImportWorker0.log
+-srvPort
+50313
+Successfully changed project path to: C:/Users/katc1/OneDrive/Documents/Hackathons/UniJam2020/Typing tute - Copy
+C:/Users/katc1/OneDrive/Documents/Hackathons/UniJam2020/Typing tute - Copy
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2019.4.8f1 (60781d942082)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/katc1/OneDrive/Documents/Hackathons/UniJam2020/Typing tute - Copy/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1406)
+    Vendor:   
+    VRAM:     4053 MB
+    Driver:   26.21.14.3200
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002114 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 40.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.374 seconds
+Registering precompiled user dll's ...
+Registered in 0.074957 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute - Copy\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 83.9 MB.
+System memory in use after: 83.1 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2128.
+Total: 2.295700 ms (FindLiveObjects: 0.568400 ms CreateObjectMapping: 0.080000 ms MarkObjects: 1.365500 ms  DeleteObjects: 0.281200 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/DialogueText.prefab
+  artifactKey: Guid(db53ece6912e881459b7203e286c1935) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Prefabs/DialogueText.prefab using Guid(db53ece6912e881459b7203e286c1935) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/a182be0b6fb81bf4783720857a2037b8.asset.1.index for Assets/Prefabs/DialogueText.prefab with Types
+Done importing asset: 'Assets/Prefabs/DialogueText.prefab' (target hash: '395cb3a5e1dd1ef3f4970d0044ddc730') in 0.114205 seconds
+  Import took 0.118618 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Scenes/ChatUI.unity
+  artifactKey: Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/ChatUI.unity using Guid(69674145fff099641b6770a540a42750) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/8abda145ff7fd6b44806fdec43edba0a.asset.1.index for Assets/Scenes/ChatUI.unity with Types
+Done importing asset: 'Assets/Scenes/ChatUI.unity' (target hash: '60c9b205b5addb331ac3a609d63ca6a8') in 0.021195 seconds
+  Import took 0.025847 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Scenes/ScrollRect.prefab
+  artifactKey: Guid(3aa5e1baf4704c54db3bc3ef0f3ecc76) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/ScrollRect.prefab using Guid(3aa5e1baf4704c54db3bc3ef0f3ecc76) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/b452d024b4838854c98db42562e43b41.asset.1.index for Assets/Scenes/ScrollRect.prefab with Types
+Done importing asset: 'Assets/Scenes/ScrollRect.prefab' (target hash: '53f5280d1f83a4f6bbdce80fab782b21') in 0.020328 seconds
+  Import took 0.025276 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Scripts/WordBank.cs
+  artifactKey: Guid(482652c06a85cd14dbcd5878eb8e8d09) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/WordBank.cs using Guid(482652c06a85cd14dbcd5878eb8e8d09) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/84d73afe03e4ecd489722fbc692bbdb1.asset.1.index for Assets/Scripts/WordBank.cs with Types
+Done importing asset: 'Assets/Scripts/WordBank.cs' (target hash: '711f519f5a20e7e918edc2068d3dea43') in 0.029347 seconds
+  Import took 0.034519 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/GameManager.cs
+  artifactKey: Guid(7d2c9adc5e9afa549b62eea82f5c080a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/GameManager.cs using Guid(7d2c9adc5e9afa549b62eea82f5c080a) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/7c5c5142cbd44f144bc6613ec56b0568.asset.1.index for Assets/GameManager.cs with Types
+Done importing asset: 'Assets/GameManager.cs' (target hash: '1e3caf71c5231eaed8e38bed6260a6b9') in 0.018580 seconds
+  Import took 0.023603 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Scripts/DialogueManager.cs
+  artifactKey: Guid(9d7ad7c143ed46240adc71852f2619ae) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/DialogueManager.cs using Guid(9d7ad7c143ed46240adc71852f2619ae) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/94e539a7d2119364ca0d0d090d3c5d3b.asset.1.index for Assets/Scripts/DialogueManager.cs with Types
+Done importing asset: 'Assets/Scripts/DialogueManager.cs' (target hash: 'a09cd8742fd52d136f95ba36ffca2c27') in 0.018883 seconds
+  Import took 0.024357 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/P1.prefab
+  artifactKey: Guid(92af640b529728c4988d1ec0d348f35f) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/P1.prefab using Guid(92af640b529728c4988d1ec0d348f35f) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/cf7ab01e1cc65db45a95154599db8065.asset.1.index for Assets/P1.prefab with Types
+Done importing asset: 'Assets/P1.prefab' (target hash: '2b76a62d5bd1839666e219254946026f') in 0.020139 seconds
+  Import took 0.026281 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Scripts/Typer.cs
+  artifactKey: Guid(e38dbd5b6f55ea149b5ffd4512069a14) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scripts/Typer.cs using Guid(e38dbd5b6f55ea149b5ffd4512069a14) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/43ceccfafc633f242a669a5c45c0589c.asset.1.index for Assets/Scripts/Typer.cs with Types
+Done importing asset: 'Assets/Scripts/Typer.cs' (target hash: 'e6364cefb525b7eb1cb0f6701c3b2f41') in 0.020707 seconds
+  Import took 0.025320 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Scenes/Panel.prefab
+  artifactKey: Guid(98e921c9e20720145b5cccb29546ab78) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/Panel.prefab using Guid(98e921c9e20720145b5cccb29546ab78) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/3d42860f252a09642a9b367c5965e747.asset.1.index for Assets/Scenes/Panel.prefab with Types
+Done importing asset: 'Assets/Scenes/Panel.prefab' (target hash: '3a86d42776e09c0a70dde9fbfe9ad364') in 0.017948 seconds
+  Import took 0.023751 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Text.prefab
+  artifactKey: Guid(afc43c37b2275bc4198058fab7c43009) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Text.prefab using Guid(afc43c37b2275bc4198058fab7c43009) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/9b705d9789f012a42bceedf8894b091d.asset.1.index for Assets/Text.prefab with Types
+Done importing asset: 'Assets/Text.prefab' (target hash: 'e3c37b69f8026e5dc40416c88fc2b14e') in 0.017328 seconds
+  Import took 0.021332 seconds.
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Scenes/DialogScene.unity
+  artifactKey: Guid(ace255f6dfc142941834dc8f5ca4fb43) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+Start importing Assets/Scenes/DialogScene.unity using Guid(ace255f6dfc142941834dc8f5ca4fb43) Importer(2089858483,3291a93977bff14cd8133371a99a42d2)
+
+Generated asset (ASIEI01) VirtualArtifacts/NamedExtra/d8729035c27d69e4da39c86719fd1873.asset.1.index for Assets/Scenes/DialogScene.unity with Types
+Done importing asset: 'Assets/Scenes/DialogScene.unity' (target hash: 'cfb31a5800b8c4dd57187479180de126') in 0.018214 seconds
+  Import took 0.024873 seconds.
+
+========================================================================
+Received Prepare
+Reloading mono domain
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2019.4.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001902 seconds.
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute - Copy\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 44.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.929 seconds
+Registering precompiled user dll's ...
+Registered in 0.072406 seconds.
+Platform modules already initialized, skipping
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing tute - Copy\Library\PackageCache\com.unity.ext.nunit@1.0.0\net35\unity-custom\nunit.framework.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.917 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.3 MB.
+System memory in use after: 48.8 MB.
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2134.
+Total: 2.145800 ms (FindLiveObjects: 0.378700 ms CreateObjectMapping: 0.061100 ms MarkObjects: 1.410600 ms  DeleteObjects: 0.294300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
