@@ -7,16 +7,18 @@ using System.Diagnostics;
 
 public class TypingManagerScript : MonoBehaviour
 {
-    private List<TextMessage> toType = new List<TextMessage>(); // hide later
+    public string isLevelFinished;  // can be: "In Progress", "Fail", "Pass"
+
+    private List<TextMessage> toType = new List<TextMessage>(); 
     public TextMeshProUGUI displayOutput;
     public TextMeshProUGUI ruleMessage;
 
     public int stageNumber = 0;
-    private int currTextPos = 0;
     private int textArrayPos = 0;
+    private int currTextPos = 0;
 
-    [SerializeField] private int mistakeCount = 0; //hide later
-    [SerializeField] private bool endOfText = false; //hide later
+    private int mistakeCount = 0; 
+    private bool endOfText = false; 
 
     private char SPECIAL_CHAR = '|';
     private bool skippedChar = false;
@@ -26,6 +28,7 @@ public class TypingManagerScript : MonoBehaviour
     {
         ReadCsvFile(stageNumber);
         GetText();
+        isLevelFinished = "In Progress";
     }
 
     private void GetText()
@@ -62,9 +65,12 @@ public class TypingManagerScript : MonoBehaviour
 
         }
 
+        UnityEngine.Debug.Log("reading stage" + stage);
+
         TextAsset readIn = Resources.Load<TextAsset>(filename);
         string[] csvValues = readIn.text.Split(new char[] { '\n' });
 
+        // replace commas
         for (int i = 1; i < csvValues.Length - 1; i++)
         {
             string[] oneRow = csvValues[i].Split(new char[] { ',' });
@@ -79,7 +85,11 @@ public class TypingManagerScript : MonoBehaviour
     private void Update()
     {
         DisplayRule();
-        CheckInput();
+
+        if (isLevelFinished == "In Progress")
+        {
+            CheckInput();
+        }
     }
 
     private void CheckInput()
@@ -89,17 +99,20 @@ public class TypingManagerScript : MonoBehaviour
         {
 
             SoundManagerScript.PlaySound("sendText");
-
-            // triggers the convo to proceed
             textArrayPos++;
-            GetText();
-
 
             //end of convo
             if (textArrayPos == toType.Count)
             {
-                //stage complete!!!!
+                UnityEngine.Debug.Log("stage comp");
+                StageComplete();
+            } 
+            else
+            {
+                // triggers the convo to procee
+                GetText();
             }
+
         }
 
 
@@ -236,4 +249,23 @@ public class TypingManagerScript : MonoBehaviour
         ruleMessage.text = rule;
     }
 
+    void StageComplete()
+    {
+        // stage complete interface, sounds
+
+        toType = new List<TextMessage>();
+        textArrayPos = 0;
+
+        stageNumber++;
+
+        if (stageNumber > 5) // end of stage 5 - last stage
+        {
+            // game end interface cool effects
+            return;
+        }
+
+        ReadCsvFile(stageNumber);
+        GetText();
+
+    }
 }
