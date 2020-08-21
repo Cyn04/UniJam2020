@@ -64,12 +64,12 @@ public class AutoplayScript : MonoBehaviour
             UnityEngine.Debug.Log("send to system");
             // send system message
             waitTime = 2.0f;
-            StartCoroutine(SendMessage(false));
+            StartCoroutine(SendMessage());
         }
         else
         {
             waitTime = 3.0f;
-            StartCoroutine(SendMessage(true));
+            StartCoroutine(SendMessage());
         }
 
         listIndex++;
@@ -81,13 +81,10 @@ public class AutoplayScript : MonoBehaviour
 
     }
 
-    IEnumerator SendMessage(bool user)
+    IEnumerator SendMessage()
     {
-        if (user)
-        {
-            messageFactorySend.SendMessageToChat(toAutoplay[listIndex].text, toAutoplay[listIndex].sender);
-        }
-        
+         messageFactorySend.SendMessageToChat(toAutoplay[listIndex].text, toAutoplay[listIndex].sender);
+
         yield return new WaitForSeconds(waitTime);
 
         if (!finishedAutoplay)

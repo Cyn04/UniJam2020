@@ -12,7 +12,7 @@ public class MessageFactory : MonoBehaviour
     private int TEXTBOX_PADDING = 15;
 
     public int msgCount;
-    public GameObject chatPanel, playerWrapper, replyWrapper;
+    public GameObject chatPanel, playerWrapper, replyWrapper, sysWrapper;
     public InputField chatBox;
 
     // Start is called before the first frame update
@@ -40,9 +40,13 @@ public class MessageFactory : MonoBehaviour
         {
             newMsg = Instantiate(replyWrapper, chatPanel.transform);
         }
+        else if (player.Equals("system"))
+        {
+            newMsg = Instantiate(sysWrapper, chatPanel.transform);
+        }
         else
         {
-            UnityEngine.Debug.Log("non-valid player input " + player);
+            UnityEngine.Debug.Log("non-valid player input. Player " + player + " does not exist");
         }
 
         // get child text object of the wrapper and set text
@@ -50,7 +54,10 @@ public class MessageFactory : MonoBehaviour
         UnityEngine.Debug.Log(newMsg.transform.childCount);
         newMsg.transform.GetChild(1).gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = text;
 
-        resizeMsg(newMsg);
+        if (player.Equals("p1") || player.Equals("NPC"))
+        {
+            resizeMsg(newMsg);
+        }
 
         // newMessage.textObject.text = newMessage.text;
         msgCount += 1;
