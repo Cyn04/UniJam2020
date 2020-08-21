@@ -1,22 +1,33 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+//using System.Media;
 using System.Threading;
 using UnityEngine;
 
 public class AutoplayScript : MonoBehaviour
 {
     public static bool finishedAutoplay = false;
+    private bool continueSending = true;
 
     private List<AutoplayClass> toAutoplay = new List<AutoplayClass>();
     private int listIndex = 0;
+
+    private float waitTime = 0.0f;
+    private string player = "";
+    private string toSend = "";
 
     public static int stageNumber;
     private char SPECIAL_CHAR = '|';
 
     public GameObject LinkToScript;
+    private MessageFactory messageFactorySend;
 
     void Start()
     {
+        // Find messsagefactory object and get its script
+        LinkToScript = GameObject.Find("MessageFactory");
+        messageFactorySend = LinkToScript.GetComponent<MessageFactory>();
+
         readCsvFile(stageNumber);
         playText();
     }
@@ -43,51 +54,81 @@ public class AutoplayScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!finishedAutoplay)
+        if ((!finishedAutoplay) && continueSending)
         {
             playText();
-        } 
-        
+        }
+
     }
 
     private void playText()
     {
+        
+
         if (!toAutoplay[listIndex].systemText.Equals("-"))
         {
             // send system message
-            StartCoroutine(Wait());
+            waitTime = 2.0f;
+            //StartCoroutine(Wait());
+        }
+
+        while (continueSending == false)
+        {
+            // do absolutely nothing
         }
 
         if (!toAutoplay[listIndex].receivedText.Equals("-"))
         {
-            // Find messsagefactory object and get its script
-            LinkToScript = GameObject.Find("MessageFactory");
-            MessageFactory messageFactoryReceive = LinkToScript.GetComponent<MessageFactory>();
-            messageFactoryReceive.SendMessageToChat(toAutoplay[listIndex].receivedText, "NPC");
+            
+            UnityEngine.Debug.Log("NPC");
+            waitTime = 3.0f;
+            player = "NPC";
+            toSend = toAutoplay[listIndex].receivedText;
 
             StartCoroutine(Wait());
         }
 
-        if (!toAutoplay[listIndex].sentText.Equals("-"))
+        while (continueSending == false)
         {
-            // Find messsagefactory object and get its script
-            LinkToScript = GameObject.Find("MessageFactory");
-            MessageFactory messageFactorySend = LinkToScript.GetComponent<MessageFactory>();
-            messageFactorySend.SendMessageToChat(toAutoplay[listIndex].sentText, "p1");
-
-            StartCoroutine(Wait());
+            // do absolutely nothing
         }
 
+        if (!toAutoplay[listIndex].receivedText.Equals("-"))
+        {
+
+            UnityEngine.Debug.Log("p1");
+
+            waitTime = 3.0f;
+            player = "p1";
+            toSend = toAutoplay[listIndex].sentText;
+
+            //StartCoroutine(Wait());
+        }
+
+        
         listIndex++;
 
         if (listIndex == toAutoplay.Count)
         {
             finishedAutoplay = true;
         }
+
     }
+
+   
 
     IEnumerator Wait()
     {
-        yield return new WaitForSeconds(3);
+        continueSending = false;
+
+        UnityEngine.Debug.Log(toSend + player);
+        
+        yield return new WaitForSeconds(waitTime);
+
+        messageFactorySend.SendMessageToChat(toSend, player);
+
+        UnityEngine.Debug.Log(toSend + player);
+
+        continueSending = true;
     }
 }

@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 8042
+  controlID: 2366
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 8043
+  controlID: 2367
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 7998
+  controlID: 2418
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 7999
+  controlID: 2397
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -418,10 +418,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 29}
-      m_SelectedIDs: 18560000
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 703b0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 98e4ffff62e5ffffa4e5ffff66e6ffffb0e6ffff26e9ffff40e9ffff7eecffff8aecffff02eeffff46efffff52efffff8cf2ffffa6f2ffff60f4ffff86f4ffff8e4d00006c4f000066510000da5500006e560000
+      m_ExpandedIDs: 98f2ffffd2f2ffffa0f4fffff2f4ffff3ef5ffffbef5ffff66f6ffffa4faffffbafaffff60fbffff783e00008c3e0000a63e0000103f0000223f00002c3f0000244200000a430000a24b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -466,9 +466,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 228
+    x: 220
     y: 72.66667
-    width: 454
+    width: 436
     height: 189
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -481,9 +481,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 195.59534, y: 117.37572, z: -1805.9375}
+    m_Target: {x: 493.15475, y: 181.6989, z: -5.6062374}
     speed: 2
-    m_Value: {x: 195.59534, y: 117.37572, z: -1805.9375}
+    m_Value: {x: 493.15475, y: 181.6989, z: -5.6062374}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -533,9 +533,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 101.08685
+    m_Target: 188.90706
     speed: 2
-    m_Value: 101.08685
+    m_Value: 188.90706
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -625,11 +625,11 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets/Backgrounds
   m_ViewMode: 1
   m_StartGridSize: 60
   m_LastFolders:
-  - Assets/Resources
+  - Assets/Backgrounds
   m_LastFoldersGridSize: 60
   m_LastProjectPath: C:\Users\katc1\OneDrive\Documents\Hackathons\UniJam2020\Typing
     tute - Copy
@@ -637,9 +637,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3c3b0000
-    m_LastClickedID: 15164
-    m_ExpandedIDs: 00000000283b00002a3b00002c3b00002e3b000000ca9a3b
+    m_SelectedIDs: 483b0000
+    m_LastClickedID: 15176
+    m_ExpandedIDs: 00000000383b00003a3b00003c3b00003e3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -667,7 +667,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000283b00002a3b00002c3b00002e3b000000ca9a3b
+    m_ExpandedIDs: 00000000383b00003a3b00003c3b00003e3b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -711,7 +711,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 9}
+      m_ClientGUIView: {fileID: 11}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
