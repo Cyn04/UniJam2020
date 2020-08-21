@@ -35,10 +35,12 @@ public class MessageFactory : MonoBehaviour
         if (player.Equals("p1"))
         {
             newMsg = Instantiate(playerWrapper, chatPanel.transform);
+            SoundManagerScript.PlaySound("sendText");
         }
         else if (player.Equals("NPC"))
         {
             newMsg = Instantiate(replyWrapper, chatPanel.transform);
+            SoundManagerScript.PlaySound("receiveText");
         }
         else if (player.Equals("system"))
         {

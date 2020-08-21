@@ -4,22 +4,17 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
-	public static AudioClip correctCharSound, incorrectCharSound, sendTextSound;
+	public static AudioClip correctCharSound, incorrectCharSound, sendTextSound, receiveTextSound;
 	static AudioSource audioSrc;
 
 	void Start()
 	{
 		correctCharSound = Resources.Load<AudioClip>("typewriter");
 		incorrectCharSound = Resources.Load<AudioClip>("buzz");
-		sendTextSound = Resources.Load<AudioClip>("typewriter-ding");
+		sendTextSound = Resources.Load<AudioClip>("bubble-pop-high");
+		receiveTextSound = Resources.Load<AudioClip>("bubble-pop-low");
 
 		audioSrc = GetComponent<AudioSource>();
-	}
-
-	// Update is called once per frame
-	void Update()
-	{
-
 	}
 
 	public static void PlaySound(string sound) 
@@ -33,6 +28,9 @@ public class SoundManagerScript : MonoBehaviour
 			break;
 		case "sendText":
 			audioSrc.PlayOneShot(sendTextSound);
+			break;
+		case "receiveText":
+			audioSrc.PlayOneShot(receiveTextSound);
 			break;
 		}
 	}

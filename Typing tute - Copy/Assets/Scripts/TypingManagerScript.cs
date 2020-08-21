@@ -8,7 +8,7 @@ using System.Diagnostics;
 public class TypingManagerScript : MonoBehaviour
 {
     public static string stageStatus;  // can be: "In Progress", "Fail", "Pass"
-    public GameObject timer;
+    //public GameObject timer;
 
     private List<TextMessage> toType = new List<TextMessage>(); 
     public TextMeshProUGUI displayOutput;
@@ -24,6 +24,7 @@ public class TypingManagerScript : MonoBehaviour
     private char SPECIAL_CHAR = '|';
     private bool skippedChar = false;
     private bool dupedLetter = false;
+    private bool receiveNextText = true;
 
     public GameObject LinkToScript;
 
@@ -70,10 +71,11 @@ public class TypingManagerScript : MonoBehaviour
 
     private void Update()
     {
-        if (stageStatus == "In Progress")
+        if (stageStatus == "In Progress" && receiveNextText)
         {
-            DisplayRule();
+            
             CheckInput();
+            
         }
     }
 
@@ -83,7 +85,7 @@ public class TypingManagerScript : MonoBehaviour
         if (endOfText == true && Input.GetKeyDown("return"))
         {
 
-            SoundManagerScript.PlaySound("sendText");
+            //SoundManagerScript.PlaySound("sendText");
 
             LinkToScript = GameObject.Find("MessageFactory");
             MessageFactory messageFactorySend = LinkToScript.GetComponent<MessageFactory>();
@@ -95,16 +97,14 @@ public class TypingManagerScript : MonoBehaviour
             if (textArrayPos == toType.Count)
             {
                 UnityEngine.Debug.Log("stage comp");
+                displayOutput.text = "";
+                ruleMessage.text = "";
                 stageStatus = "Pass";
             } 
             else
             {
                 // triggers the convo to proceed
-                GetText();
-
-                LinkToScript = GameObject.Find("MessageFactory");
-                MessageFactory messageFactoryReceive = LinkToScript.GetComponent<MessageFactory>();
-                messageFactoryReceive.SendMessageToChat(toType[textArrayPos].receivedText, "NPC"); 
+                StartCoroutine(ReceiveMessage());
             }
 
         }
@@ -243,5 +243,20 @@ public class TypingManagerScript : MonoBehaviour
         ruleMessage.text = rule;
     }
 
-    
+    IEnumerator ReceiveMessage()
+    {
+        receiveNextText = false;
+        displayOutput.text = "";
+        ruleMessage.text = "";
+
+        yield return new WaitForSeconds(2.0f);
+
+        LinkToScript = GameObject.Find("MessageFactory");
+        MessageFactory messageFactoryReceive = LinkToScript.GetComponent<MessageFactory>();
+        messageFactoryReceive.SendMessageToChat(toType[textArrayPos].receivedText, "NPC");
+
+        receiveNextText = true;
+        GetText();
+        DisplayRule();
+    }
 }

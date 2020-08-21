@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class StageClearedScript : MonoBehaviour
 {
@@ -18,6 +19,8 @@ public class StageClearedScript : MonoBehaviour
         if (Input.GetKeyDown("return"))
         {
             // go to level intro scene
+            int sceneIndex = 4 * stage;
+            SceneManager.LoadScene(sceneIndex);
         }
     }
 }

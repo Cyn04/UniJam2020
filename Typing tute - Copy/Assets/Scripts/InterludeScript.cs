@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class OpeningSceneScript : MonoBehaviour
 {
@@ -12,13 +13,20 @@ public class OpeningSceneScript : MonoBehaviour
         AutoplayScript.interludeNumber = interlude;
     }
 
-    // Update is called once per frame
+    void Start ()
+    {
+
+    }
+
     void Update()
     {
+        UnityEngine.Debug.Log("hi");
         if (AutoplayScript.finishedAutoplay)
         {
             UnityEngine.Debug.Log("to next stage");
             // load opponent intro
+            int sceneIndex = 4 * interlude + 1;
+            SceneManager.LoadScene(sceneIndex);
         }
     }
 }

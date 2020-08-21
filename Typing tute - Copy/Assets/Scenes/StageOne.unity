@@ -1108,6 +1108,7 @@ MonoBehaviour:
   chatPanel: {fileID: 1708153153}
   playerWrapper: {fileID: 1548628494}
   replyWrapper: {fileID: 911582313}
+  sysWrapper: {fileID: 0}
   chatBox: {fileID: 1955734917}
 --- !u!4 &805329870
 Transform:

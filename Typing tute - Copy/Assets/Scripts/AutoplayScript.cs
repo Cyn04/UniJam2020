@@ -61,22 +61,22 @@ public class AutoplayScript : MonoBehaviour
 
         if (toAutoplay[listIndex].sender.Equals("system"))
         {
-            UnityEngine.Debug.Log("send to system");
-            // send system message
-            waitTime = 2.0f;
-            StartCoroutine(SendMessage());
+            waitTime = 1.0f;
         }
         else
         {
-            waitTime = 3.0f;
-            StartCoroutine(SendMessage());
+            waitTime = 2.0f;
         }
 
+        StartCoroutine(SendMessage());
+
         listIndex++;
+
 
         if (listIndex == toAutoplay.Count)
         {
             finishedAutoplay = true;
+            UnityEngine.Debug.Log("finished autoplay" + finishedAutoplay);
         }
 
     }
