@@ -24,33 +24,25 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (chatBox.text != "")
-        {
-            if (Input.GetKeyDown(KeyCode.Return))
-            {
-                SendMessageToChat();
-                chatBox.text = "";
-            }
-        }
-        // activates chatbox if it's not focused
-        else if (!chatBox.isFocused)
-        {
-            chatBox.ActivateInputField();
-        }
 
     }
 
-    public void SendMessageToChat()
+    // sends text to messenger UI depending on who is replying
+    public void SendMessageToChat(string text, string player)
     {
         GameObject newMsg = new GameObject();
 
-        if (msgCount % 2 == 0)
+        if (player == "p1")
         {
             newMsg = Instantiate(playerWrapper, chatPanel.transform);
         }
-        else
+        else if (player == "NPC")
         {
             newMsg = Instantiate(replyWrapper, chatPanel.transform);
+        }
+        else
+        {
+            UnityEngine.Debug.Log("non-valid player input");
         }
 
         // get child text object of the wrapper and set text
@@ -87,13 +79,5 @@ public class GameManager : MonoBehaviour
     {
         newMsg.transform.GetChild(1).gameObject.GetComponent<TMPro.TextMeshProUGUI>().alignment = TextAlignmentOptions.TopLeft;
     }
-
-}
-
-[System.Serializable]
-public class Message
-{
-    public string text;
-    public Text textObject;
 
 }
