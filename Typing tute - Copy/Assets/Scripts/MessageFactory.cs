@@ -32,20 +32,22 @@ public class MessageFactory : MonoBehaviour
     {
         GameObject newMsg = new GameObject();
 
-        if (player == "p1")
+        if (player.Equals("p1"))
         {
             newMsg = Instantiate(playerWrapper, chatPanel.transform);
         }
-        else if (player == "NPC")
+        else if (player.Equals("NPC"))
         {
             newMsg = Instantiate(replyWrapper, chatPanel.transform);
         }
         else
         {
-            UnityEngine.Debug.Log("non-valid player input");
+            UnityEngine.Debug.Log("non-valid player input " + player);
         }
 
         // get child text object of the wrapper and set text
+
+        UnityEngine.Debug.Log(newMsg.transform.childCount);
         newMsg.transform.GetChild(1).gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = text;
 
         resizeMsg(newMsg);

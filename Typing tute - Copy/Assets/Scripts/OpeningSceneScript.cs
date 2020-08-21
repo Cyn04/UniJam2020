@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OpeningSceneScript : MonoBehaviour
+public class InterludeScript : MonoBehaviour
 {
     public static bool finishedScene = false;
     public int stage;
@@ -10,7 +10,7 @@ public class OpeningSceneScript : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        AutoplayScript.stageNumber = stage;
+        AutoplayScript.interludeNumber = stage;
     }
 
     // Update is called once per frame

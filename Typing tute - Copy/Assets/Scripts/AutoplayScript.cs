@@ -7,16 +7,15 @@ using UnityEngine;
 public class AutoplayScript : MonoBehaviour
 {
     public static bool finishedAutoplay = false;
-    private bool continueSending = true;
+    //private bool continueSending = true;
 
     private List<AutoplayClass> toAutoplay = new List<AutoplayClass>();
     private int listIndex = 0;
+    //private string player = "";
 
     private float waitTime = 0.0f;
-    private string player = "";
-    private string toSend = "";
 
-    public static int stageNumber;
+    public static int interludeNumber;
     private char SPECIAL_CHAR = '|';
 
     public GameObject LinkToScript;
@@ -28,13 +27,13 @@ public class AutoplayScript : MonoBehaviour
         LinkToScript = GameObject.Find("MessageFactory");
         messageFactorySend = LinkToScript.GetComponent<MessageFactory>();
 
-        readCsvFile(stageNumber);
+        readCsvFile(interludeNumber);
         playText();
     }
 
-    void readCsvFile(int stage)
+    void readCsvFile(int interlude)
     {
-        string filename = "interlude" + stage;
+        string filename = "interlude" + interlude;
 
         TextAsset readIn = Resources.Load<TextAsset>(filename);
         string[] csvValues = readIn.text.Split(new char[] { '\n' });
@@ -54,58 +53,25 @@ public class AutoplayScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((!finishedAutoplay) && continueSending)
-        {
-            playText();
-        }
-
+        
     }
 
     private void playText()
     {
-        
 
-        if (!toAutoplay[listIndex].systemText.Equals("-"))
+        if (toAutoplay[listIndex].sender.Equals("system"))
         {
+            UnityEngine.Debug.Log("send to system");
             // send system message
             waitTime = 2.0f;
-            //StartCoroutine(Wait());
+            StartCoroutine(SendMessage(false));
         }
-
-        while (continueSending == false)
+        else
         {
-            // do absolutely nothing
-        }
-
-        if (!toAutoplay[listIndex].receivedText.Equals("-"))
-        {
-            
-            UnityEngine.Debug.Log("NPC");
             waitTime = 3.0f;
-            player = "NPC";
-            toSend = toAutoplay[listIndex].receivedText;
-
-            StartCoroutine(Wait());
+            StartCoroutine(SendMessage(true));
         }
 
-        while (continueSending == false)
-        {
-            // do absolutely nothing
-        }
-
-        if (!toAutoplay[listIndex].receivedText.Equals("-"))
-        {
-
-            UnityEngine.Debug.Log("p1");
-
-            waitTime = 3.0f;
-            player = "p1";
-            toSend = toAutoplay[listIndex].sentText;
-
-            //StartCoroutine(Wait());
-        }
-
-        
         listIndex++;
 
         if (listIndex == toAutoplay.Count)
@@ -115,20 +81,18 @@ public class AutoplayScript : MonoBehaviour
 
     }
 
-   
-
-    IEnumerator Wait()
+    IEnumerator SendMessage(bool user)
     {
-        continueSending = false;
-
-        UnityEngine.Debug.Log(toSend + player);
+        if (user)
+        {
+            messageFactorySend.SendMessageToChat(toAutoplay[listIndex].text, toAutoplay[listIndex].sender);
+        }
         
         yield return new WaitForSeconds(waitTime);
 
-        messageFactorySend.SendMessageToChat(toSend, player);
-
-        UnityEngine.Debug.Log(toSend + player);
-
-        continueSending = true;
+        if (!finishedAutoplay)
+        {
+            playText();
+        }
     }
 }

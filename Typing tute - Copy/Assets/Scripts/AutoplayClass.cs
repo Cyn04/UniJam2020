@@ -4,14 +4,12 @@ using UnityEngine;
 
 public class AutoplayClass
 {
-    public string systemText;
-    public string receivedText;
-    public string sentText;
+    public string text;
+    public string sender;
     
     public AutoplayClass(string[] textInfo)
     {
-        systemText = textInfo[0];
-        receivedText = textInfo[1];
-        sentText = textInfo[2];
+        text = textInfo[0];
+        sender = textInfo[1];
     }
 }
