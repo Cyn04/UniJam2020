@@ -248,13 +248,15 @@ public class TypingManagerScript : MonoBehaviour
         messageFactoryReceive.SendMessageToChat(toType[textArrayPos].receivedText, "NPC");
 
         receiveNextText = true;
+
         if (toType[textArrayPos].text.Equals("-"))
         {
             UnityEngine.Debug.Log("stage comp");
             displayOutput.text = "<color=#1D1D1D>Press ENTER to Continue...</color>";
             ruleMessage.text = "";
             stageStatus = "Pass";
-        } else
+        } 
+        else
         {
             GetText();
             DisplayRule();
