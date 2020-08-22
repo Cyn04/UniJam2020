@@ -387,6 +387,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 736972702}
     m_Modifications:
+    - target: {fileID: 5139704979740417421, guid: dafc951f61b02a442b5a10e756cbbd9e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.49999714
+      objectReference: {fileID: 0}
+    - target: {fileID: 5139704980118983538, guid: dafc951f61b02a442b5a10e756cbbd9e,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.49999714
+      objectReference: {fileID: 0}
     - target: {fileID: 5139704981093756300, guid: dafc951f61b02a442b5a10e756cbbd9e,
         type: 3}
       propertyPath: m_Name
@@ -655,6 +665,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1363679027 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7908248046702303304, guid: b0a008e0139afd845bd1a23aa1e81c8a,
+    type: 3}
+  m_PrefabInstance: {fileID: 1376636013}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1376636013
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1118,7 +1134,7 @@ PrefabInstance:
         type: 3}
       propertyPath: chatPanel
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1363679027}
     - target: {fileID: 5217129199384222408, guid: 9f0ca76e300b72e44a429d8c0404b417,
         type: 3}
       propertyPath: playerWrapper
