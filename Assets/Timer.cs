@@ -7,15 +7,17 @@ using System.Diagnostics;
 public class Timer : MonoBehaviour
 {
     public TextMeshProUGUI uiText = null;
-    public float mainTimer;
 
     private float timer;
     private bool canCount = true;
     private bool doOnce = false;
+    private GameManagerScript gameManagerScript;
 
     void Start()
     {
-        timer = mainTimer;
+        GameObject GameManager = GameObject.Find("GameManager");
+        gameManagerScript = GameManager.GetComponent<GameManagerScript>();
+        timer = gameManagerScript.timeToPass;
         uiText.text = timer.ToString("F");
     }
 
@@ -23,7 +25,7 @@ public class Timer : MonoBehaviour
     {
         if (timer >= 0.0f && canCount && TypingManagerScript.stageStatus.Equals("In Progress"))
         {
-            timer -= Time.deltaTime;
+            timer = gameManagerScript.timeToPass - gameManagerScript.secPassed;
             uiText.text = timer.ToString("F");
         }
 

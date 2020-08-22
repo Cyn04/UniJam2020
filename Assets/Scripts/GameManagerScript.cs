@@ -6,13 +6,14 @@ using UnityEngine.SceneManagement;
 public class GameManagerScript : MonoBehaviour
 {
     public float timeToPass;
-    private float secPassed;
+    public float secPassed;
     //public GameObject textManager;
     public int stage;
 
     // Start is called before the first frame update
     void Awake()
     {
+        UnityEngine.Debug.Log(timeToPass);
         //textManager.SetActive(true);
         UnityEngine.Debug.Log("Start Stage " + stage);
         TypingManagerScript.stageNumber = stage;
@@ -21,7 +22,6 @@ public class GameManagerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if (TypingManagerScript.stageStatus.Equals("In Progress")) { 
             secPassed += Time.deltaTime;
         }

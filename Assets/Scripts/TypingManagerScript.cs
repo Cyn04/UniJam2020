@@ -74,6 +74,7 @@ public class TypingManagerScript : MonoBehaviour
 
     private void Update()
     {
+        DisplayRule();
         if (stageStatus == "In Progress" && receiveNextText)
         {
             CheckInput();
@@ -241,6 +242,8 @@ public class TypingManagerScript : MonoBehaviour
 
     IEnumerator ReceiveMessage()
     {
+        stageStatus = "Awaiting Player Start";
+
         receiveNextText = false;
         displayOutput.text = "";
         ruleMessage.text = "Special Rules:";
@@ -249,10 +252,9 @@ public class TypingManagerScript : MonoBehaviour
 
         LinkToScript = GameObject.Find("MessageFactory");
         MessageFactory messageFactoryReceive = LinkToScript.GetComponent<MessageFactory>();
-        DisplayRule();
         messageFactoryReceive.SendMessageToChat(toType[textArrayPos].receivedText, "NPC");
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
 
         receiveNextText = true;
 
