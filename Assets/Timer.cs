@@ -7,22 +7,21 @@ using System.Diagnostics;
 public class Timer : MonoBehaviour
 {
     public TextMeshProUGUI uiText = null;
-    [SerializeField] private float mainTimer;
+    public float mainTimer;
 
     private float timer;
     private bool canCount = true;
     private bool doOnce = false;
 
-
     void Start()
     {
         timer = mainTimer;
-
+        uiText.text = timer.ToString("F");
     }
 
     void Update()
     {
-        if (timer >= 0.0f && canCount)
+        if (timer >= 0.0f && canCount && TypingManagerScript.stageStatus.Equals("In Progress"))
         {
             timer -= Time.deltaTime;
             uiText.text = timer.ToString("F");

@@ -7,7 +7,7 @@ using System.Diagnostics;
 
 public class TypingManagerScript : MonoBehaviour
 {
-    public static string stageStatus;  // can be: "In Progress", "Fail", "Pass"
+    public static string stageStatus;  // can be: "In Progress", "Fail", "Pass", "Awaiting Player Start"
     //public GameObject timer;
 
     private List<TextMessage> toType = new List<TextMessage>(); 
@@ -31,7 +31,7 @@ public class TypingManagerScript : MonoBehaviour
     void Start()
     {
         ReadCsvFile(stageNumber);
-        stageStatus = "In Progress";
+        stageStatus = "Awaiting Player Start";
 
         // Find messsagefactory object and get its script
         LinkToScript = GameObject.Find("MessageFactory");
@@ -76,10 +76,13 @@ public class TypingManagerScript : MonoBehaviour
     {
         if (stageStatus == "In Progress" && receiveNextText)
         {
-            
             CheckInput();
-            
         }
+        else if (stageStatus == "Player Start")
+        {
+            stageStatus = "In Progress";
+        }
+
     }
 
     private void CheckInput()
@@ -242,11 +245,14 @@ public class TypingManagerScript : MonoBehaviour
         displayOutput.text = "";
         ruleMessage.text = "Special Rules:";
 
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(1f);
 
         LinkToScript = GameObject.Find("MessageFactory");
         MessageFactory messageFactoryReceive = LinkToScript.GetComponent<MessageFactory>();
+        DisplayRule();
         messageFactoryReceive.SendMessageToChat(toType[textArrayPos].receivedText, "NPC");
+
+        yield return new WaitForSeconds(0.5f);
 
         receiveNextText = true;
 
@@ -260,7 +266,6 @@ public class TypingManagerScript : MonoBehaviour
         else
         {
             GetText();
-            DisplayRule();
         }
     }
 }

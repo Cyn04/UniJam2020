@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e243089a253809843ae2a1258839d010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToPassStage: 30
+  timeToPass: 30
   stage: 1
 --- !u!114 &98405974
 MonoBehaviour:
@@ -1760,7 +1760,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2013457885}
   m_Layer: 5
-  m_Name: GameObject
+  m_Name: Game Info
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
