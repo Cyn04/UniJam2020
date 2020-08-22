@@ -60,7 +60,7 @@ public class TypingManagerScript : MonoBehaviour
         string[] csvValues = readIn.text.Split(new char[] { '\n' });
 
         // replace commas
-        for (int i = 1; i < csvValues.Length - 1; i++)
+        for (int i = 1; i < csvValues.Length; i++)
         {
             string[] oneRow = csvValues[i].Split(new char[] { ',' });
             oneRow[0] = oneRow[0].Replace(SPECIAL_CHAR, ',');
