@@ -38,6 +38,7 @@ public class TypingManagerScript : MonoBehaviour
         MessageFactory messageFactoryStart = LinkToScript.GetComponent<MessageFactory>();
         messageFactoryStart.SendMessageToChat(toType[textArrayPos].receivedText, "NPC");
 
+        DisplayRule();
         GetText();
     }
 
@@ -97,7 +98,7 @@ public class TypingManagerScript : MonoBehaviour
             if (textArrayPos == toType.Count)
             {
                 UnityEngine.Debug.Log("stage comp");
-                displayOutput.text = "";
+                displayOutput.text = "<color=#1D1D1D>Press ENTER to Continue...</color>";
                 ruleMessage.text = "";
                 stageStatus = "Pass";
             } 
@@ -222,22 +223,22 @@ public class TypingManagerScript : MonoBehaviour
 
         if (toType[textArrayPos].skipLetter)
         {
-            rule += $"<color=#3c912c>Skip</color> the letter <color=#ba1a2b>{toType[textArrayPos].charToSkip}</color>\n";
+            rule += $"<color=#3c912c>Skip</color> <color=#D77097>{toType[textArrayPos].charToSkip}</color>\n";
         }
 
         if (toType[textArrayPos].swapLetter)
         {
-            rule += $"<color=#3c912c>Replace</color> the letter <color=#ba1a2b>{toType[textArrayPos].swapFrom}</color> with <color=#ba1a2b>{toType[textArrayPos].swapTo}</color>\n";
+            rule += $"<color=#3c912c>Replace</color> <color=#D77097>{toType[textArrayPos].swapFrom}</color> with <color=#D77097>{toType[textArrayPos].swapTo}</color>\n";
         }
 
         if (toType[textArrayPos].dupLetter)
         {
-            rule += $"Type the letter <color=#ba1a2b>{toType[textArrayPos].charToDup}</color> <color=#3c912c>twice</color>\n";
+            rule += $"Type <color=#D77097>{toType[textArrayPos].charToDup}</color> <color=#3c912c>twice</color>\n";
         }
 
         if (toType[textArrayPos].capitaliseLetter)
         {
-            rule += $"<color=#3c912c>Capitalise</color> the letter <color=#ba1a2b>{toType[textArrayPos].charToCapitalise}</color>\n";
+            rule += $"<color=#3c912c>Capitalise</color> <color=#D77097>{toType[textArrayPos].charToCapitalise}</color>\n";
         }
 
         ruleMessage.text = rule;
@@ -247,7 +248,7 @@ public class TypingManagerScript : MonoBehaviour
     {
         receiveNextText = false;
         displayOutput.text = "";
-        ruleMessage.text = "";
+        ruleMessage.text = "Special Rules:";
 
         yield return new WaitForSeconds(2.0f);
 

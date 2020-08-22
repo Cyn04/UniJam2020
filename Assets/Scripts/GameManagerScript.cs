@@ -19,29 +19,18 @@ public class GameManagerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (TypingManagerScript.stageStatus.Equals("Fail")) 
+        if (TypingManagerScript.stageStatus.Equals("Fail"))
         {
             // transition to fail scene
-        } 
-        else if (TypingManagerScript.stageStatus.Equals("Pass"))
+        }
+        else if (TypingManagerScript.stageStatus.Equals("Pass") && Input.GetKeyDown("return"))
         {
             // transition to pass scene
             UnityEngine.Debug.Log("passed stage" + stage);
 
-            StartCoroutine(toPassScene());
+            int sceneIndex = 4 * stage - 1;
+            SceneManager.LoadScene(sceneIndex);
 
-            //if (stage == FINAL_STAGE)
-            //{
-            //to end game scene
-            //}
         }
-    }
-
-    IEnumerator toPassScene()
-    {
-        yield return new WaitForSeconds(1.0f);
-
-        int sceneIndex = 4 * stage - 1;
-        SceneManager.LoadScene(sceneIndex);
     }
 }
