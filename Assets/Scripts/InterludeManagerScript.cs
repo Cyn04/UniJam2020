@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class InterludeScript : MonoBehaviour
+public class InterludeManagerScript : MonoBehaviour
 {
     public int interlude;
 
@@ -14,9 +14,9 @@ public class InterludeScript : MonoBehaviour
         AutoplayScript.interludeNumber = interlude;
     }
 
-    void Start ()
+    void Start()
     {
-        
+
     }
 
     void Update()

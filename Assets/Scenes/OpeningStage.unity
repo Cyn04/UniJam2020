@@ -161,10 +161,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 98405971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eeb77b89db99f4b4890a9c07c15a4af5, type: 3}
+  m_Script: {fileID: 11500000, guid: e73b3571f84d3004f9b44bdad3f13658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stage: 0
+  interlude: 0
 --- !u!1 &218537126
 GameObject:
   m_ObjectHideFlags: 0
