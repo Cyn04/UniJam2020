@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class GameManagerScript : MonoBehaviour
 {
-
+    public float timeToPassStage;
+    private float secPassed;
     //public GameObject textManager;
     public int stage;
 
@@ -20,9 +21,12 @@ public class GameManagerScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (TypingManagerScript.stageStatus.Equals("Fail"))
+        secPassed += Time.deltaTime;
+        UnityEngine.Debug.Log("sec passed: " + secPassed);
+        if (secPassed > timeToPassStage || Input.GetKeyDown(KeyCode.Backslash))
         {
-            // transition to fail scene
+            UnityEngine.Debug.Log("failed stage " + stage);
+            Application.LoadLevel(Application.loadedLevel);
         }
         else if (TypingManagerScript.stageStatus.Equals("Pass") && Input.GetKeyDown("return"))
         {
