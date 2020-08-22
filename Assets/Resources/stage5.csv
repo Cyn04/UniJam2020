@@ -1,4 +1,17 @@
-﻿ReceivedMessage,ToSend,swapLetter,swapFrom,swapTo,skipLetter,charToSkip,dupLetter,charToDupe,capitaliseLetter,charToCapitalise,time(sec)
-aloha,hey| nice to meet you,FALSE,,,FALSE,,FALSE,,FALSE,,7
-My name is bob,wow| im also bob,FALSE,,,FALSE,,FALSE,,FALSE,,7
-hows it going,I'm tired,FALSE,,,FALSE,,FALSE,,FALSE,,7
+ReceivedMessage,ToSend,swapLetter,swapFrom,swapTo,skipLetter,charToSkip,dupLetter,charToDupe,capitaliseLetter,charToCapitalise,time,useless
+You're the new regional manager? You seem like someone who names your bears properly.,Thank you for the compliment.,TRUE,o,a,TRUE,m,FALSE,,FALSE,,10,
+You remember a Norman Guy?,He was my team leader in the 2nd Division. He was a very dedicated colleague.,TRUE,a,o,TRUE,d,FALSE,,FALSE,,10,
+He kept on sending emails to HR about getting you promoted. Not beary nice.,I apologise if it ended up inconveniencing you and the company.,TRUE,i,u,FALSE,,TRUE,c,FALSE,,10,
+Eh| not my problem anyway. There was another one called Karen White?,She was the manager of the 2nd Division. I remember her energy and focus towards her work.,TRUE,e,a,FALSE,,TRUE,n,FALSE,,10,
+She sent death threats to tech support for an entire week before quitting. Beary scary.,I'm very sorry on her behalf for causing trouble.,FALSE,,,TRUE,o,TRUE,r,FALSE,,10,
+Nah| everyone just ignored her. You know Rajesh Rao too?,He was the manager in charge of the IT department. His works are quite innovative.,FALSE,,,TRUE,t,TRUE,n,FALSE,,10,
+He put a password on the vending machines and no one knows what it is. Pretty unbearable.,I would like to ask for forgiveness on his behalf.,TRUE,o,a,TRUE,f,FALSE,,FALSE,,10,
+Eh| about time we bought new ones anyway. By the way| which position did you take over?,Regional manager. Queenie Wang used to be in that role.,TRUE,e,a,TRUE,n,FALSE,,FALSE,,10,
+Oh| the manager that bearly anyone gets.,With all due respect Sir| but how is this company running properly?,FALSE,,,FALSE,,FALSE,,TRUE,p,10,
+With a lot of support from my bears.,.............................................,FALSE,,,FALSE,,FALSE,,FALSE,,10,
+And a lot of money.,Money certainly makes the world go round.,FALSE,,,TRUE,n,TRUE,o,TRUE,y,10,
+Yeah. But I'm tired. My bears are tired too.,Tired of running the company?,TRUE,o,a,TRUE,t,FALSE,,TRUE,n,10,
+Yeah.,What would you like to do then?,TRUE,o,a,FALSE,,TRUE,d,TRUE,t,10,
+Maybe join my bear family.,I'm sure your bear family would appreciate you joining them very much.,TRUE,o,a,TRUE,u,TRUE,m,TRUE,y,10,
+You think so?,With someone like you accompanying them| I know so.,TRUE,o,a,TRUE,e,TRUE,y,TRUE,m,10,
+Well| in that case...,-,FALSE,,,FALSE,,FALSE,,FALSE,,10,
