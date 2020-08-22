@@ -45,7 +45,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   msgCount: 0
   chatPanel: {fileID: 0}
-  playerWrapper: {fileID: 0}
-  replyWrapper: {fileID: 0}
-  sysWrapper: {fileID: 0}
+  playerWrapper: {fileID: 8811982445172260763, guid: f5470f17267a7b64ca64af11b9861379,
+    type: 3}
+  replyWrapper: {fileID: 9124508074200385797, guid: cf4ba9ba4a6e5274999134863b84dac6,
+    type: 3}
+  sysWrapper: {fileID: 250862139478315990, guid: 48dd05fe51e167f418a98b10d35be43b,
+    type: 3}
   chatBox: {fileID: 0}
