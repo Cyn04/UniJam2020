@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ReceivedMessage,ToSend,swapLetter,swapFrom,swapTo,skipLetter,charToSkip,dupLetter,charToDupe,capitaliseLetter,charToCapitalise,time,useless
 im bored say something,Pancakes are better than waffles.,TRUE,a,o,FALSE,,FALSE,,FALSE,,10,
 ofc uhhhh I hate working overtime,The IT department should get a new coffee machine.,TRUE,a,o,FALSE,,FALSE,,FALSE,,10,
@@ -11,4 +10,3 @@ coast clear which pancake place is top,"According to reviews, Peter Pancakes is 
 good also do you remember what im supposed to do now,Fix the coffee machine since you last connected it to the server.,TRUE,a,o,TRUE,s,FALSE,,FALSE,,10,
 k thx for reminder what else do i need to do,I cleaned up the scripts for you already.,TRUE,o,a,TRUE,t,FALSE,,FALSE,,10,
 nice btw do you want my job,-,FALSE,,,FALSE,,FALSE,,FALSE,,10,
->>>>>>> 2a2a00347bc843951b1c92536d4dc929a97b1f7d,,,,,,,,,,,,
