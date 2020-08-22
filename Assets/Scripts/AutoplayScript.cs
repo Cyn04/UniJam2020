@@ -43,6 +43,7 @@ public class AutoplayScript : MonoBehaviour
         for (int i = 1; i < csvValues.Length; i++)
         {
             string[] oneRow = csvValues[i].Split(new char[] { ',' });
+            UnityEngine.Debug.Log("length" + oneRow.Length);
             oneRow[0] = oneRow[0].Replace(SPECIAL_CHAR, ',');
             oneRow[1] = oneRow[1].Replace(SPECIAL_CHAR, ',');
 
