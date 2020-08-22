@@ -11,7 +11,7 @@ public class NewOpponentScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        UnityEngine.Debug.Log("Start NewOpponent " + stage);
     }
 
     // Update is called once per frame
@@ -21,6 +21,7 @@ public class NewOpponentScript : MonoBehaviour
         {
             // go to level intro scene
             int sceneIndex = 4 * stage - 2;
+            UnityEngine.Debug.Log("Going into scene " + sceneIndex);
             SceneManager.LoadScene(sceneIndex);
         }
     }

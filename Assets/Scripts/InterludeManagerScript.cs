@@ -14,7 +14,7 @@ public class InterludeManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        UnityEngine.Debug.Log("interlude start");
+        UnityEngine.Debug.Log("star interlude " + interlude);
         AutoplayScript.interludeNumber = interlude;
     }
 
@@ -33,7 +33,7 @@ public class InterludeManagerScript : MonoBehaviour
 
         if (AutoplayScript.finishedAutoplay && Input.GetKeyDown("return"))
         {
-            UnityEngine.Debug.Log("to next stage");
+            
             // load opponent intro
             int sceneIndex = 4 * interlude + 1;
 
@@ -41,7 +41,7 @@ public class InterludeManagerScript : MonoBehaviour
             {
                 sceneIndex = 22;
             }
-
+            UnityEngine.Debug.Log("Going into scene " + sceneIndex);
             SceneManager.LoadScene(sceneIndex);
         }
     }

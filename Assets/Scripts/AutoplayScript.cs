@@ -23,6 +23,7 @@ public class AutoplayScript : MonoBehaviour
 
     void Start()
     {
+        finishedAutoplay = false;
         // Find messsagefactory object and get its script
         LinkToScript = GameObject.Find("MessageFactory");
         messageFactorySend = LinkToScript.GetComponent<MessageFactory>();
@@ -58,7 +59,7 @@ public class AutoplayScript : MonoBehaviour
 
     private void playText()
     {
-        UnityEngine.Debug.Log("playText");
+        //UnityEngine.Debug.Log("playText");
         if (toAutoplay[listIndex].sender.Equals("system"))
         {
             waitTime = 1.5f;
@@ -76,17 +77,15 @@ public class AutoplayScript : MonoBehaviour
         if (listIndex == toAutoplay.Count)
         {
             finishedAutoplay = true;
-            UnityEngine.Debug.Log("finished autoplay" + finishedAutoplay);
+            //UnityEngine.Debug.Log("finished autoplay" + finishedAutoplay);
         }
 
     }
 
     IEnumerator SendMessage()
     {
-        UnityEngine.Debug.Log("sendingMessage");
         messageFactorySend.SendMessageToChat(toAutoplay[listIndex].text, toAutoplay[listIndex].sender);
 
-        UnityEngine.Debug.Log("sent message");
         yield return new WaitForSeconds(waitTime);
 
         if (!finishedAutoplay)

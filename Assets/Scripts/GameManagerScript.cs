@@ -13,6 +13,7 @@ public class GameManagerScript : MonoBehaviour
     void Awake()
     {
         //textManager.SetActive(true);
+        UnityEngine.Debug.Log("Start Stage " + stage);
         TypingManagerScript.stageNumber = stage;
     }
 
@@ -29,6 +30,7 @@ public class GameManagerScript : MonoBehaviour
             UnityEngine.Debug.Log("passed stage" + stage);
 
             int sceneIndex = 4 * stage - 1;
+            UnityEngine.Debug.Log("Going into scene " + sceneIndex);
             SceneManager.LoadScene(sceneIndex);
 
         }

@@ -10,7 +10,7 @@ public class StageClearedScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        UnityEngine.Debug.Log("Start StageClear " + stage);
     }
 
     // Update is called once per frame
@@ -20,6 +20,7 @@ public class StageClearedScript : MonoBehaviour
         {
             // go to level intro scene
             int sceneIndex = 4 * stage;
+            UnityEngine.Debug.Log("Going into scene " + sceneIndex);
             SceneManager.LoadScene(sceneIndex);
         }
     }
