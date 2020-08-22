@@ -1,0 +1,4 @@
+ReceivedMessage,ToSend,swapLetter,swapFrom,swapTo,skipLetter,charToSkip,dupLetter,charToDupe,capitaliseLetter,charToCapitalise,time,useless
+Did you get a chance to look over the document? What do you think?,abcde,FALSE,,,FALSE,,FALSE,,FALSE,,10,
+You really think so?,ha ha ha,FALSE,,,FALSE,,FALSE,,FALSE,,10,
+Really?,-,FALSE,,,FALSE,,FALSE,,FALSE,,10,

@@ -68,6 +68,7 @@ public class TypingManagerScript : MonoBehaviour
             TextMessage oneText = new TextMessage(oneRow);
             toType.Add(oneText);
         }
+        UnityEngine.Debug.Log("read items" + toType.Count);
     }
 
     private void Update()
@@ -94,22 +95,12 @@ public class TypingManagerScript : MonoBehaviour
 
             textArrayPos++;
 
+            // triggers the convo to proceed
+            StartCoroutine(ReceiveMessage());
+
             //end of convo
-            if (textArrayPos == toType.Count)
-            {
-                UnityEngine.Debug.Log("stage comp");
-                displayOutput.text = "<color=#1D1D1D>Press ENTER to Continue...</color>";
-                ruleMessage.text = "";
-                stageStatus = "Pass";
-            } 
-            else
-            {
-                // triggers the convo to proceed
-                StartCoroutine(ReceiveMessage());
-            }
-
+            
         }
-
 
         else if (Input.anyKeyDown && !Input.GetKeyDown(KeyCode.LeftShift) && !Input.GetKeyDown(KeyCode.RightShift) && !Input.GetKeyDown(KeyCode.CapsLock))
         {
@@ -257,7 +248,16 @@ public class TypingManagerScript : MonoBehaviour
         messageFactoryReceive.SendMessageToChat(toType[textArrayPos].receivedText, "NPC");
 
         receiveNextText = true;
-        GetText();
-        DisplayRule();
+        if (toType[textArrayPos].text.Equals("-"))
+        {
+            UnityEngine.Debug.Log("stage comp");
+            displayOutput.text = "<color=#1D1D1D>Press ENTER to Continue...</color>";
+            ruleMessage.text = "";
+            stageStatus = "Pass";
+        } else
+        {
+            GetText();
+            DisplayRule();
+        }
     }
 }
