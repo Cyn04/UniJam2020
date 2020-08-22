@@ -61,7 +61,7 @@ public class AutoplayScript : MonoBehaviour
         UnityEngine.Debug.Log("playText");
         if (toAutoplay[listIndex].sender.Equals("system"))
         {
-            waitTime = 1.0f;
+            waitTime = 1.5f;
         }
         else
         {
