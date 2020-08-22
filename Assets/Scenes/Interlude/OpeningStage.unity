@@ -863,10 +863,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 736972702}
     m_Modifications:
+    - target: {fileID: 2026910414105370196, guid: f78cf8c140b85c04fa7657d27973b684,
+        type: 3}
+      propertyPath: m_text
+      value: dkfjlkfafkljf
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026910414105370196, guid: f78cf8c140b85c04fa7657d27973b684,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4288453788
+      objectReference: {fileID: 0}
     - target: {fileID: 2026910414105370199, guid: f78cf8c140b85c04fa7657d27973b684,
         type: 3}
       propertyPath: m_Name
       value: DisplayMessage (TMP)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2026910414105370199, guid: f78cf8c140b85c04fa7657d27973b684,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2026910414105370202, guid: f78cf8c140b85c04fa7657d27973b684,
         type: 3}
