@@ -406,6 +406,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 736972702}
     m_Modifications:
+    - target: {fileID: 2001956641237524669, guid: 59759a6a2923e7d4a839b9cf5460f35f,
+        type: 3}
+      propertyPath: m_fontColor.a
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2001956641237524670, guid: 59759a6a2923e7d4a839b9cf5460f35f,
         type: 3}
       propertyPath: m_Name
@@ -1616,6 +1621,11 @@ PrefabInstance:
     - target: {fileID: 7908248046702303307, guid: b0a008e0139afd845bd1a23aa1e81c8a,
         type: 3}
       propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908248046810731952, guid: b0a008e0139afd845bd1a23aa1e81c8a,
+        type: 3}
+      propertyPath: m_Color.a
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7908248046810731966, guid: b0a008e0139afd845bd1a23aa1e81c8a,
