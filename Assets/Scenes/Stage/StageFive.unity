@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e243089a253809843ae2a1258839d010, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToPass: 100
+  timeToPass: 500
   secPassed: 0
   stage: 5
 --- !u!1 &118380994
