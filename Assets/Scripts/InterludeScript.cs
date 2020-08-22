@@ -3,19 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class OpeningSceneScript : MonoBehaviour
+public class InterludeScript : MonoBehaviour
 {
     public int interlude;
 
     // Start is called before the first frame update
     void Awake()
     {
+        UnityEngine.Debug.Log("interlude start");
         AutoplayScript.interludeNumber = interlude;
     }
 
     void Start ()
     {
-
+        
     }
 
     void Update()
