@@ -58,6 +58,18 @@ public class MessageFactory : MonoBehaviour
         {
             resizeMsg(newMsg);
         }
+        //else
+        //{
+        //    // set wrapper's dimensions to text height
+        //    float textHeight = newMsg.transform.GetChild(1).gameObject.GetComponent<TMPro.TextMeshProUGUI>().preferredHeight;
+        //    float origWrapperWidth = newMsg.GetComponent<RectTransform>().sizeDelta.x;
+        //    newMsg.GetComponent<RectTransform>().sizeDelta = new Vector2(origWrapperWidth, textHeight + 20);
+        //}
+
+        // set wrapper's dimensions to text height
+        float textHeight = newMsg.transform.GetChild(1).gameObject.GetComponent<TMPro.TextMeshProUGUI>().preferredHeight;
+        float origWrapperWidth = newMsg.GetComponent<RectTransform>().sizeDelta.x;
+        newMsg.GetComponent<RectTransform>().sizeDelta = new Vector2(origWrapperWidth, textHeight + TEXTBOX_PADDING);
 
         // newMessage.textObject.text = newMessage.text;
         msgCount += 1;
@@ -75,13 +87,8 @@ public class MessageFactory : MonoBehaviour
             leftJustify(newMsg);
         }
 
-        float origWrapperWidth = newMsg.GetComponent<RectTransform>().sizeDelta.x;
-
         // set background coloured container size to textbox size
         newMsg.transform.GetChild(0).GetComponent<RectTransform>().sizeDelta = new Vector2(textWidth + 15, textHeight + 15);
-
-        // set wrapper's dimensions to text height
-        newMsg.GetComponent<RectTransform>().sizeDelta = new Vector2(origWrapperWidth, textHeight + TEXTBOX_PADDING);
     }
 
     private void leftJustify(GameObject newMsg)
