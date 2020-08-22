@@ -58,7 +58,7 @@ public class AutoplayScript : MonoBehaviour
 
     private void playText()
     {
-
+        UnityEngine.Debug.Log("playText");
         if (toAutoplay[listIndex].sender.Equals("system"))
         {
             waitTime = 1.0f;
@@ -83,8 +83,10 @@ public class AutoplayScript : MonoBehaviour
 
     IEnumerator SendMessage()
     {
-         messageFactorySend.SendMessageToChat(toAutoplay[listIndex].text, toAutoplay[listIndex].sender);
+        UnityEngine.Debug.Log("sendingMessage");
+        messageFactorySend.SendMessageToChat(toAutoplay[listIndex].text, toAutoplay[listIndex].sender);
 
+        UnityEngine.Debug.Log("sent message");
         yield return new WaitForSeconds(waitTime);
 
         if (!finishedAutoplay)

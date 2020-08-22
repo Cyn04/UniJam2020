@@ -52,8 +52,6 @@ public class MessageFactory : MonoBehaviour
         }
 
         // get child text object of the wrapper and set text
-
-        UnityEngine.Debug.Log(newMsg.transform.childCount);
         newMsg.transform.GetChild(1).gameObject.GetComponent<TMPro.TextMeshProUGUI>().text = text;
 
         if (player.Equals("p1") || player.Equals("NPC"))
