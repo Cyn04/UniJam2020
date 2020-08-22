@@ -19,11 +19,56 @@ EditorBuildSettings:
     guid: 02069783f8c4c114c88257d679c224e1
   - enabled: 1
     path: Assets/Scenes/Interlude/InterludeOne.unity
-    guid: b41bca3cdc58c4a4ead24869e3f40f0d
+    guid: 0c7cd7bbeda35f949bc8cdfe25f73f11
   - enabled: 1
     path: Assets/Scenes/NewOpponent/StageTwoNewOpponent.unity
     guid: 8f28712236080154982ad5defb178559
   - enabled: 1
     path: Assets/Scenes/Stage/StageTwo.unity
-    guid: ff7ac788f734dc441aeb86f4c0480e61
+    guid: 352d4cd92668dbf408a07f5055d7d5b4
+  - enabled: 1
+    path: Assets/Scenes/ClearStage/StageTwoClear.unity
+    guid: c716de142a4737e4bad3687d3ba07300
+  - enabled: 1
+    path: Assets/Scenes/Interlude/InterludeTwo.unity
+    guid: 2ac95d7d098aae84887e171cacd6a149
+  - enabled: 1
+    path: Assets/Scenes/NewOpponent/StageThreeNewOpponent.unity
+    guid: 1734e8f5ed8cc7842bcace6bc097c95a
+  - enabled: 1
+    path: Assets/Scenes/Stage/StageThree.unity
+    guid: 69611cb95b7f1464bba4fbb7a466e06e
+  - enabled: 1
+    path: Assets/Scenes/ClearStage/StageThreeClear.unity
+    guid: 80abbc98b599f474399e06290d6682e9
+  - enabled: 1
+    path: Assets/Scenes/Interlude/InterludeThree.unity
+    guid: ed4abb0914cb1af488a30d2c02e0c50d
+  - enabled: 1
+    path: Assets/Scenes/NewOpponent/StageFourNewOpponent.unity
+    guid: 6ab3ac78872c05a45bba159ff9269493
+  - enabled: 1
+    path: Assets/Scenes/Stage/StageFour.unity
+    guid: 16810d033c5940a478c64032d23775c9
+  - enabled: 1
+    path: Assets/Scenes/ClearStage/StageFourClear.unity
+    guid: 2b26aa311c97f924fbbf08cae7127d4b
+  - enabled: 1
+    path: Assets/Scenes/Interlude/InterludeFour.unity
+    guid: 119165ce8aa7d7843b98d1dc4d20a726
+  - enabled: 1
+    path: Assets/Scenes/NewOpponent/StageFiveNewOpponent.unity
+    guid: 767b23efa221c06498aeb13561531ab6
+  - enabled: 1
+    path: Assets/Scenes/Stage/StageFive.unity
+    guid: 51cfacbf610d6f74d859ee4167553de0
+  - enabled: 1
+    path: Assets/Scenes/ClearStage/StageFiveClear.unity
+    guid: 2d24ca1c915e4684685a4d8875278750
+  - enabled: 1
+    path: Assets/Scenes/Interlude/InterludeFive.unity
+    guid: 4c1b8c490a23ba8429100a755e1a2b7f
+  - enabled: 1
+    path: Assets/Scenes/Interlude/InterludeSix.unity
+    guid: 2c4cf1c37a7203641b56ddce5c54a3e6
   m_configObjects: {}

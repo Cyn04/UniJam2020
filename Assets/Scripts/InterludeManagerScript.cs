@@ -36,6 +36,12 @@ public class InterludeManagerScript : MonoBehaviour
             UnityEngine.Debug.Log("to next stage");
             // load opponent intro
             int sceneIndex = 4 * interlude + 1;
+
+            if (interlude == 6)
+            {
+                sceneIndex = 22;
+            }
+
             SceneManager.LoadScene(sceneIndex);
         }
     }

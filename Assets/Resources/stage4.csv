@@ -1,0 +1,4 @@
+﻿ReceivedMessage,ToSend,swapLetter,swapFrom,swapTo,skipLetter,charToSkip,dupLetter,charToDupe,capitaliseLetter,charToCapitalise,time(sec)
+aloha,hey| nice to meet you,FALSE,,,FALSE,,FALSE,,FALSE,,7
+My name is bob,wow| im also bob,FALSE,,,FALSE,,FALSE,,FALSE,,7
+hows it going,I'm tired,FALSE,,,FALSE,,FALSE,,FALSE,,7
