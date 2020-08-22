@@ -45,6 +45,7 @@ public class TypingManagerScript : MonoBehaviour
     private void GetText()
     {
         // find the next text in the toType array
+        
         displayOutput.text = toType[textArrayPos].text;
         currTextPos = 0;
         endOfText = false;
