@@ -69,7 +69,6 @@ public class TypingManagerScript : MonoBehaviour
             TextMessage oneText = new TextMessage(oneRow);
             toType.Add(oneText);
         }
-        UnityEngine.Debug.Log("read items" + toType.Count);
     }
 
     private void Update()

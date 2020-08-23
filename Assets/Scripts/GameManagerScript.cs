@@ -7,14 +7,12 @@ public class GameManagerScript : MonoBehaviour
 {
     public float timeToPass;
     public float secPassed;
-    //public GameObject textManager;
     public int stage;
 
     // Start is called before the first frame update
     void Awake()
     {
         UnityEngine.Debug.Log(timeToPass);
-        //textManager.SetActive(true);
         UnityEngine.Debug.Log("Start Stage " + stage);
         TypingManagerScript.stageNumber = stage;
     }
