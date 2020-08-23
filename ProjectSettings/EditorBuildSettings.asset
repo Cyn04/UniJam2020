@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Interlude/OpeningStage.unity
+    path: Assets/Scenes/OpeningStage.unity
     guid: 0cc07058c6b6f1345989aaca1a5de1f9
   - enabled: 1
     path: Assets/Scenes/NewOpponent/TitleScene.unity
