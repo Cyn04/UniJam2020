@@ -28,7 +28,7 @@ public class GameManagerScript : MonoBehaviour
         {
             TypingManagerScript.stageStatus = "Player Start";
         }
-        else if ((secPassed > timeToPass || Input.GetKeyDown(KeyCode.Backslash)) && TypingManagerScript.stageStatus.Equals("In Progress"))
+        else if ((secPassed > timeToPass || Input.GetKeyDown(KeyCode.Equals)) && TypingManagerScript.stageStatus.Equals("In Progress"))
         {
             UnityEngine.Debug.Log("restart stage " + stage);
             Application.LoadLevel(Application.loadedLevel);
