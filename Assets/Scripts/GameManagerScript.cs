@@ -11,7 +11,7 @@ public class GameManagerScript : MonoBehaviour
     public float timeToPass;
     public float secPassed;
     public int stage;
-    //private float waitTime = 0.0f;
+    private float waitTime = 0.0f;
 
     // Start is called before the first frame update
     void Awake()
@@ -36,13 +36,15 @@ public class GameManagerScript : MonoBehaviour
         {
             UnityEngine.Debug.Log("failed stage " + stage);
             SoundManagerScript.PlaySound("fail");
-            Application.LoadLevel(Application.loadedLevel);
+            waitTime = 3.0f;
+            StartCoroutine(RestartStage());
         }
-        else if ((Input.GetKeyDown(KeyCode.Equals))) // && TypingManagerScript.stageStatus.Equals("In Progress")
+        else if ((Input.GetKeyDown(KeyCode.Equals)) && !TypingManagerScript.stageStatus.Equals("Pass"))
         {
             UnityEngine.Debug.Log("restart stage " + stage);
             SoundManagerScript.PlaySound("restart");
-            Application.LoadLevel(Application.loadedLevel);
+            waitTime = 1.0f;
+            StartCoroutine(RestartStage());
         }
         else if (TypingManagerScript.stageStatus.Equals("Pass") && Input.GetKeyDown("return"))
         {
@@ -54,5 +56,12 @@ public class GameManagerScript : MonoBehaviour
             SceneManager.LoadScene(sceneIndex);
 
         }
+    }
+
+    IEnumerator RestartStage()
+    {
+        yield return new WaitForSeconds(waitTime);
+
+        Application.LoadLevel(Application.loadedLevel);
     }
 }

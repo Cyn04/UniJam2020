@@ -33,7 +33,7 @@ public class Timer : MonoBehaviour
         {
             canCount = false;
             doOnce = true;
-            uiText.text = "0.00";
+            uiText.text = "<color=red>0.00</color>";
             timer = 0.0f;
 
         }
