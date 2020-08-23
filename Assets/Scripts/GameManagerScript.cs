@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
+// SoundManagerScript.PlaySound("incorrectChar");
+
 public class GameManagerScript : MonoBehaviour
 {
     public float timeToPass;
     public float secPassed;
     public int stage;
+    //private float waitTime = 0.0f;
 
     // Start is called before the first frame update
     void Awake()
@@ -28,9 +32,16 @@ public class GameManagerScript : MonoBehaviour
         {
             TypingManagerScript.stageStatus = "Player Start";
         }
-        else if ((secPassed > timeToPass || Input.GetKeyDown(KeyCode.Equals)) && TypingManagerScript.stageStatus.Equals("In Progress"))
+        else if (secPassed > timeToPass && TypingManagerScript.stageStatus.Equals("In Progress"))
+        {
+            UnityEngine.Debug.Log("failed stage " + stage);
+            SoundManagerScript.PlaySound("fail");
+            Application.LoadLevel(Application.loadedLevel);
+        }
+        else if ((Input.GetKeyDown(KeyCode.Equals))) // && TypingManagerScript.stageStatus.Equals("In Progress")
         {
             UnityEngine.Debug.Log("restart stage " + stage);
+            SoundManagerScript.PlaySound("restart");
             Application.LoadLevel(Application.loadedLevel);
         }
         else if (TypingManagerScript.stageStatus.Equals("Pass") && Input.GetKeyDown("return"))

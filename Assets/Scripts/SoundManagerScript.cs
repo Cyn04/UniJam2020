@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class SoundManagerScript : MonoBehaviour
 {
-	public static AudioClip correctCharSound, incorrectCharSound, sendTextSound, receiveTextSound;
+	public static AudioClip correctCharSound, incorrectCharSound, sendTextSound, receiveTextSound, failSound, restartSound;
 	static AudioSource audioSrc;
 
 	void Start()
 	{
-		correctCharSound = Resources.Load<AudioClip>("typewriter");
-		incorrectCharSound = Resources.Load<AudioClip>("buzz");
-		sendTextSound = Resources.Load<AudioClip>("bubble-pop-high");
-		receiveTextSound = Resources.Load<AudioClip>("bubble-pop-low");
+		correctCharSound = Resources.Load<AudioClip>("sfx_correcttype");
+		incorrectCharSound = Resources.Load<AudioClip>("sfx_incorrecttype");
+
+		sendTextSound = Resources.Load<AudioClip>("sfx_sendmessage");
+		receiveTextSound = Resources.Load<AudioClip>("sfx_receivemessage");
+
+		failSound = Resources.Load<AudioClip>("sfx_gameover");
+		restartSound = Resources.Load<AudioClip>("sfx_restartstage");
 
 		audioSrc = GetComponent<AudioSource>();
 	}
@@ -31,6 +35,12 @@ public class SoundManagerScript : MonoBehaviour
 			break;
 		case "receiveText":
 			audioSrc.PlayOneShot(receiveTextSound);
+			break;
+		case "fail":
+			audioSrc.PlayOneShot(failSound);
+			break;
+		case "restart":
+			audioSrc.PlayOneShot(restartSound);
 			break;
 		}
 	}
