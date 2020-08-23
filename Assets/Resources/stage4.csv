@@ -1,8 +1,8 @@
 ReceivedMessage,ToSend,swapLetter,swapFrom,swapTo,skipLetter,charToSkip,dupLetter,charToDupe,capitaliseLetter,charToCapitalise,time,useless
 I just sent you the report. Do tell me if it makes sense.,You're trying to propose a new knowledge management strategy?,TRUE,o,a,FALSE,,FALSE,,FALSE,,10,
 Yes. I presented it in the last meeting but no one got it.,The chemical composition of knowledge management?,TRUE,o,a,FALSE,,FALSE,,FALSE,,10,
-Right| creating strategies by reverse engineering its components.,It sounds like an innovative method.,FALSE,,,FALSE,,FALSE,,FALSE,,10,
-It's not any better than the method I proposed a month ago.,The one where you used the Black-Scholes-Merton model?,FALSE,,,FALSE,,FALSE,,FALSE,,10,
+Right| creating strategies by reverse engineering its components.,It sounds like an innovative method.,FALSE,,,FALSE,,TRUE,s,FALSE,,10,
+It's not any better than the method I proposed a month ago.,The one where you used the Black-Scholes-Merton model?,FALSE,,,FALSE,,FALSE,,TRUE,a,10,
 I consider that to be my best work so far.,Personally I prefer the human resource management strategy.,TRUE,o,a,FALSE,,FALSE,,TRUE,a,10,
 I'm surprised you remember that. Remind me about what I did?,Using Grover's algorithm to predict how many resumes HR gets in the summer.,TRUE,o,a,FALSE,,FALSE,,FALSE,,10,
 Unfortunately that one is inconclusive.,How about applying the multi-pattern design variation?,TRUE,o,a,FALSE,,FALSE,,TRUE,a,10,
